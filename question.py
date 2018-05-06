@@ -29,12 +29,26 @@ timeChange = 0 # To save the time of state changing
 
 # CONSTANTS
 
-X_PLAYER1 = 100
-X_PLAYER2 = 200
+X_PLAYER1 = 0
+X_PLAYER2 = 900
 Y_PLAYERS = 500
 Y_BALLS_INITIAL = 400
 WINDOW_WIDTH = 1000
 WINDOW_HEIGHT = 700
+
+X_SCREEN = 100
+Y_SCREEN = 50
+WIDTH_SCREEN = 800
+HEIGHT_SCREEN = 200
+
+HEIGHT_STICK = 50
+HEIGHT_TIME_STICK = 30
+WIDTH_TIME_STICK = 800
+
+WIDTH_SCORE = 100
+
+MAX_TIME = 20000 # miliseconds
+
 
 # FUNCTIONS
 
@@ -43,8 +57,15 @@ def quitGame():
 	pygame.quit()
 	sys.exit()
 
+def drawStage():
+	pygame.draw.rect(surface,(255,0,0),(X_SCREEN, Y_SCREEN, WIDTH_SCREEN, HEIGHT_SCREEN))
+	pygame.draw.rect(surface,(255,255,255),(0, WINDOW_HEIGHT-HEIGHT_STICK, WINDOW_WIDTH, HEIGHT_STICK))
+	pygame.draw.rect(surface,(150,150,150), (0, WINDOW_HEIGHT-HEIGHT_STICK, WIDTH_SCORE, HEIGHT_STICK))
+	pygame.draw.rect(surface,(150,150,150), (WINDOW_WIDTH-WIDTH_SCORE, WINDOW_HEIGHT-HEIGHT_STICK, WIDTH_SCORE, HEIGHT_STICK))
 
-
+def drawTimeStick(timeLeft) :
+	width_real_ts = WIDTH_TIME_STICK*timeLeft/MAX_TIME
+	pygame.draw.rect(surface, (255,0,0), (int((WINDOW_WIDTH-width_real_ts)/2), int(WINDOW_HEIGHT-HEIGHT_STICK+(HEIGHT_STICK-HEIGHT_TIME_STICK)/2), width_real_ts, HEIGHT_TIME_STICK))
 
 # PYGAME OBJECTS
 
@@ -66,7 +87,11 @@ ball2 = objects.ball(2)
 while True:
     mousePosition = pygame.mouse.get_pos()
     surface.fill((50,0,50))
-    
+    drawStage()
+    player1.draw(surface,pygame)
+    player2.draw(surface,pygame)
+
+
     	# Handle user and system events 
     for event in GAME_EVENTS.get():
     		if event.type == pygame.KEYDOWN:
@@ -88,7 +113,11 @@ while True:
     elif state == 1: # QuestionPlayer1 
     	renderedText = textFont.render('Preguntando al jugador 1', 1, (255,255,255))
     	surface.blit(renderedText, (50, 75))
-    	if (GAME_TIME.get_ticks()-timeChange) > 2000 :
+    	player1.move(mousePosition[0])
+    	ball1.move(player1.getPos(), player1.getWidth())
+    	ball1.draw(surface, pygame)
+    	drawTimeStick(MAX_TIME - int(GAME_TIME.get_ticks()-timeChange))
+    	if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME :
     		state += 1 
 
     elif state == 2: # AnswerAnimation1
