@@ -15,6 +15,7 @@ class basketPlayer:
 		self.type = type # player 1 or player 2
 		self.x = x # Possition on x axis
 		self.y = y # Possition on y axis
+		self.initialPos = x
 		self.WIDTH = 100
 		self.HEIGHT = 150
 		if self.type == 1:
@@ -28,6 +29,12 @@ class basketPlayer:
 
 	def getWidth(self):
 		return self.WIDTH
+	
+	def returnToInitialPos(self):
+            if self.x > self.initialPos:
+                self.x -= self.SPEED
+            if self.x < self.initialPos:
+                self.x = self.initialPos
 
 	def move(self,xmouse):
 		if self.x + (self.WIDTH/2) > xmouse:

@@ -113,6 +113,7 @@ while True:
     elif state == 1: # QuestionPlayer1 
     	renderedText = textFont.render('Preguntando al jugador 1', 1, (255,255,255))
     	surface.blit(renderedText, (50, 75))
+    	player2.returnToInitialPos()
     	player1.move(mousePosition[0])
     	ball1.move(player1.getPos(), player1.getWidth())
     	ball1.draw(surface, pygame)
@@ -131,7 +132,12 @@ while True:
     elif state == 3: # QuestionPlayer2
     	renderedText = textFont.render('Preguntando al jugador 2', 1, (255,255,255))
     	surface.blit(renderedText, (50, 75))
-    	if (GAME_TIME.get_ticks()-timeChange) > 2000 :
+    	player1.returnToInitialPos()
+    	player2.move(mousePosition[0])
+    	ball2.move(player1.getPos(), player1.getWidth())
+    	ball2.draw(surface, pygame)
+    	drawTimeStick(MAX_TIME - int(GAME_TIME.get_ticks()-timeChange))
+    	if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME :
     		state += 1 
 
     elif state == 4: # AnswerAnimation2
@@ -145,7 +151,7 @@ while True:
     elif state == 5: # Round result
     	renderedText = textFont.render('Resultado del round', 1, (255,255,255))
     	surface.blit(renderedText, (50, 75))
-    	if (GAME_TIME.get_ticks()-timeChange) > 2000 :
+    	if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME :
     		state = 1
     		timeChange = GAME_TIME.get_ticks()
 
