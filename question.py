@@ -151,7 +151,7 @@ while True:
     elif state == 5: # Round result
     	renderedText = textFont.render('Resultado del round', 1, (255,255,255))
     	surface.blit(renderedText, (50, 75))
-    	if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME :
+    	if (GAME_TIME.get_ticks()-timeChange) > 2000 :
     		state = 1
     		timeChange = GAME_TIME.get_ticks()
 
