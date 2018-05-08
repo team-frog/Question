@@ -34,7 +34,7 @@ class basketPlayer:
             if self.x > self.initialPos:
                 self.x -= self.SPEED
             if self.x < self.initialPos:
-                self.x = self.initialPos
+                self.x += self.SPEED
 
 	def move(self,xmouse):
 		if self.x + (self.WIDTH/2) > xmouse:
@@ -60,14 +60,33 @@ class ball:
 		self.HEIGHT = 50
 		self.color = (0,255,255)
 		self.flying = False
+		self.gravity = 1
+		self.INITIALIMPULSE = 25
+		self.impulse = self.INITIALIMPULSE
 
 	def move(self, playerPos, playerWIDTH):
 		if self.flying == False:
 			self.x = int(playerPos[0]+(playerWIDTH-self.WIDTH)/2)
 			self.y = playerPos[1]
+		else:
+			self.y -= self.impulse
+			self.impulse -= self.gravity
 
 	def draw(self, surface, pygame):
 		pygame.draw.rect(surface, self.color, (self.x, self.y, self.WIDTH,self.HEIGHT))
+
+	def throw(self):
+		self.flying = True
+
+	def reset(self):
+		self.flying = False
+		self.impulse = self.INITIALIMPULSE
+
+	def fallen(self):
+		if self.impulse > (-1)*self.INITIALIMPULSE :
+			return 0
+		else :
+			return self.x+self.WIDTH/2
 
 
 
