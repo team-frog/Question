@@ -165,23 +165,6 @@ while True:
     
     elif state == 1: # QuestionPlayer1 
         questionPlayer(1)
-        """renderedText = textFont.render('Preguntando al jugador 1', 1, (255,255,255))
-        surface.blit(renderedText, (50, 75))
-        player2.returnToInitialPos()
-        player1.move(mousePosition[0])
-        ball1.move(player1.getPos(), player1.getWidth())
-        ball1.draw(surface, pygame)
-        if mousePressed == True:
-            ball1.throw()
-        drawTimeStick(MAX_TIME - int(GAME_TIME.get_ticks()-timeChange))
-        if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME or ball1.fallen():
-            state += 1
-            mousePressed = False
-            if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME :
-                answerPlayer = 'none'
-            else :
-                answerPlayer = answer(ball1.fallen())
-            ball1.reset()"""
 
     elif state == 2: # AnswerAnimation1
         renderedText = textFont.render('Respuesta anterior: ' + answerPlayer, 1, (255,255,255))
@@ -194,24 +177,6 @@ while True:
 
     elif state == 3: # QuestionPlayer2
         questionPlayer(2)
-
-        """renderedText = textFont.render('Preguntando al jugador 2', 1, (255,255,255))
-        surface.blit(renderedText, (50, 75))
-        player1.returnToInitialPos()
-        player2.move(mousePosition[0])
-        ball2.move(player2.getPos(), player2.getWidth())
-        ball2.draw(surface, pygame)
-        if mousePressed == True:
-            ball2.throw()
-        drawTimeStick(MAX_TIME - int(GAME_TIME.get_ticks()-timeChange))
-        if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME or ball2.fallen():
-            state += 1
-            mousePressed = False
-            if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME :
-                answerPlayer = 'none'
-            else :
-                answerPlayer = answer(ball2.fallen())
-            ball2.reset()"""
 
     elif state == 4: # AnswerAnimation2
         renderedText = textFont.render('Respuesta anterior: ' + answerPlayer, 1, (255,255,255))
