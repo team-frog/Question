@@ -24,25 +24,25 @@ class basketPlayer:
 			self.color = (0,255,0)
 		self.SPEED = 3
 
-	def getPos(self):
+	def getPos(self): # Para que te devuelva un tupple con las posiciones del jugador
 		return (self.x, self.y)	
 
-	def getWidth(self):
+	def getWidth(self): # Esta función te devuelve la anchura del jugador
 		return self.WIDTH
 	
-	def returnToInitialPos(self):
+	def returnToInitialPos(self): # Esta función, la cual se va ejecutando siempre que esté en el state apropiado, hace que el jugador vuelva lentamente a la posicion de inicio
             if self.x > self.initialPos:
                 self.x -= self.SPEED
             if self.x < self.initialPos:
                 self.x += self.SPEED
 
-	def move(self,xmouse):
+	def move(self,xmouse): # Para mover al jugador
 		if self.x + (self.WIDTH/2) > xmouse:
 			self.x -= self.SPEED
 		else:
 			self.x += self.SPEED
 
-	def draw(self,surface,pygame):
+	def draw(self,surface,pygame): # Para dibujar al jugador
 		pygame.draw.rect(surface,self.color,(self.x, self.y, self.WIDTH, self.HEIGHT))
 
 
@@ -64,7 +64,7 @@ class ball:
 		self.INITIALIMPULSE = 25
 		self.impulse = self.INITIALIMPULSE
 
-	def move(self, playerPos, playerWIDTH):
+	def move(self, playerPos, playerWIDTH): # Para mover la pelota
 		if self.flying == False:
 			self.x = int(playerPos[0]+(playerWIDTH-self.WIDTH)/2)
 			self.y = playerPos[1]
@@ -72,13 +72,13 @@ class ball:
 			self.y -= self.impulse
 			self.impulse -= self.gravity
 
-	def draw(self, surface, pygame):
+	def draw(self, surface, pygame): # Para dibujar la pelota
 		pygame.draw.rect(surface, self.color, (self.x, self.y, self.WIDTH,self.HEIGHT))
 
-	def throw(self):
+	def throw(self): # Para cambiar a true la variable flying
 		self.flying = True
 
-	def reset(self):
+	def reset(self): 
 		self.flying = False
 		self.impulse = self.INITIALIMPULSE
 

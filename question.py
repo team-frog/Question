@@ -134,7 +134,19 @@ def questionPlayer(player):
             answerPlayer = answer(ballA.fallen())
         ballA.reset()
 
-
+def answerAnimation(player):
+	global mousePressed, answerPlayer, state
+	if player==1:
+		ballA = ball1
+	else:
+		ballA = ball2
+	renderedText = textFont.render('Respuesta anterior: ' + answerPlayer, 1, (255,255,255))
+	surface.blit(renderedText, (50, 75))
+	ballA.draw(surface, pygame)
+	if mousePressed == True : 
+		state += 1
+		mousePressed = False
+		timeChange = GAME_TIME.get_ticks()
 # Source in
 
 while True:
@@ -167,25 +179,13 @@ while True:
         questionPlayer(1)
 
     elif state == 2: # AnswerAnimation1
-        renderedText = textFont.render('Respuesta anterior: ' + answerPlayer, 1, (255,255,255))
-        surface.blit(renderedText, (50, 75))
-        ball1.draw(surface, pygame)
-        if mousePressed == True : 
-            state += 1
-            mousePressed = False
-            timeChange = GAME_TIME.get_ticks()
+        answerAnimation(1)
 
     elif state == 3: # QuestionPlayer2
         questionPlayer(2)
 
     elif state == 4: # AnswerAnimation2
-        renderedText = textFont.render('Respuesta anterior: ' + answerPlayer, 1, (255,255,255))
-        surface.blit(renderedText, (50, 75))
-        ball2.draw(surface, pygame)
-        if mousePressed == True:
-            state += 1
-            mousePressed = False
-            timeChange = GAME_TIME.get_ticks()
+        answerAnimation(2)
 
     elif state == 5: # Round result
     	renderedText = textFont.render('Resultado del round. Dar click', 1, (255,255,255))
@@ -194,6 +194,7 @@ while True:
             state = 1
             mousePressed = False
             timeChange = GAME_TIME.get_ticks()
+
 
     clock.tick(60)
     pygame.display.update()
