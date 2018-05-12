@@ -20,12 +20,17 @@ state = 0; # Waiting = 0; QuestionPlayer1 = 1;
 mousePressed = False # Para saber si el ratón está pulsado
 
 # Hay que leer el fichero CSV y crear una lista de listas como esta
-questions = [['Pregunta1','Correcta1','incrorrecta1a','incorrecta1b'],
-             ['Pregunta1','Correcta1','incrorrecta1a','incorrecta1b']] 
+questionFile = open('assets/questions/prueba.csv')
+questionReader = csv.reader(questionFile, delimiter=';')
+questionList = list(questionReader)
 
 contadorPreguntas = 0 # To count number of questions to finish the game
 mousePosition = None
 timeChange = 0 # To save the time of state changing
+toAsk = random.randint(0,len(questionList)-1) # Number of the question choosen randomly
+order = [1,2,3]
+random.shuffle(order)
+answerCorrect = None
 
 
 # CONSTANTS
@@ -53,24 +58,25 @@ TARGET_C = 750
 
 WIDTH_SCORE = 100
 
-MAX_TIME = 10000 # miliseconds
+MAX_TIME = 20000 # miliseconds
 
 
 # FUNCTIONS
 
 # How to quit our program
 def quitGame():
-	pygame.quit()
-	sys.exit()
+    questionFile.close()
+    pygame.quit()
+    sys.exit()
 
 def drawStage():
     pygame.draw.rect(surface,(255,0,0),(X_SCREEN, Y_SCREEN, WIDTH_SCREEN, HEIGHT_SCREEN))
     pygame.draw.rect(surface,(255,255,255),(0, WINDOW_HEIGHT-HEIGHT_STICK, WINDOW_WIDTH, HEIGHT_STICK))
     pygame.draw.rect(surface,(150,150,150), (0, WINDOW_HEIGHT-HEIGHT_STICK, WIDTH_SCORE, HEIGHT_STICK))
     pygame.draw.rect(surface,(150,150,150), (WINDOW_WIDTH-WIDTH_SCORE, WINDOW_HEIGHT-HEIGHT_STICK, WIDTH_SCORE, HEIGHT_STICK))
-    pygame.draw.rect(surface,(255,255,255), (TARGET_A, 300, WIDTH_TARGET, 20))
-    pygame.draw.rect(surface,(255,255,255), (TARGET_B, 300, WIDTH_TARGET, 20))
-    pygame.draw.rect(surface,(255,255,255), (TARGET_C, 300, WIDTH_TARGET, 20))
+    pygame.draw.rect(surface,(196,107,20), (TARGET_A, 300, WIDTH_TARGET, 20))
+    pygame.draw.rect(surface,(196,107,20), (TARGET_B, 300, WIDTH_TARGET, 20))
+    pygame.draw.rect(surface,(196,107,20), (TARGET_C, 300, WIDTH_TARGET, 20))
 
 
 def drawTimeStick(timeLeft) :
@@ -87,8 +93,10 @@ def answer(xball) :
         return 'C'
     return toReturn
 
-
-
+def whoCorrect(listOrder):
+    for i in range(3):
+        if listOrder[i] == 1:
+            return i
 
 # PYGAME OBJECTS
 
@@ -97,18 +105,18 @@ clock = pygame.time.Clock()
 pygame.font.init()
 surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption('QUESTIONS GAME: ANTONIO MUÑOZ, DANIEL ROMERO. IES CANTELY')
-textFont = pygame.font.SysFont("monospace", 50)
+textFont = pygame.font.SysFont("monospace", 30)
 
 
 player1 = objects.basketPlayer(1, X_PLAYER1, Y_PLAYERS)
 player2 = objects.basketPlayer(2, X_PLAYER2, Y_PLAYERS)
-ball1 = objects.ball(1)
-ball2 = objects.ball(2)
+ball1 = objects.ball(1, pygame)
+ball2 = objects.ball(2, pygame)
 
 mousePosition = pygame.mouse.get_pos()
 
 def questionPlayer(player):
-    global mousePressed, state, answerPlayer, mousePosition
+    global mousePressed, state, answerPlayer, mousePosition, questionList, toAsk, answerCorrect
     if player==1:
         playerA = player1
         ballA = ball1
@@ -117,8 +125,14 @@ def questionPlayer(player):
         playerA = player2
         ballA = ball2
         playerB = player1
-    renderedText = textFont.render('Preguntando al jugador ' + str(player), 1, (255,255,255))
-    surface.blit(renderedText, (50, 75))
+    renderedText = textFont.render(questionList[toAsk][0], 1, (255,255,255))
+    surface.blit(renderedText, (75, 75))
+    renderedText = textFont.render('A: ' + questionList[toAsk][order[0]], 1, (255,255,255))
+    surface.blit(renderedText, (75, 100))
+    renderedText = textFont.render('B: ' + questionList[toAsk][order[1]], 1, (255,255,255))
+    surface.blit(renderedText, (75, 125))
+    renderedText = textFont.render('C: ' + questionList[toAsk][order[2]], 1, (255,255,255))
+    surface.blit(renderedText, (75, 150))
     playerB.returnToInitialPos()
     playerA.move(mousePosition[0])
     ballA.move(playerA.getPos(), playerA.getWidth())
@@ -128,26 +142,41 @@ def questionPlayer(player):
     drawTimeStick(MAX_TIME - int(GAME_TIME.get_ticks()-timeChange))
     if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME or ballA.fallen():
         state += 1
+        answerCorrect = whoCorrect(order)
+        toAsk = random.randint(0,len(questionList)-1)
+        random.shuffle(order)
         mousePressed = False
         if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME :
             answerPlayer = 'none'
         else :
             answerPlayer = answer(ballA.fallen())
         ballA.reset()
+        if (answerPlayer == 'A' and answerCorrect==0) or (answerPlayer == 'B' and answerCorrect==1) or (answerPlayer == 'C' and answerCorrect==2): 
+            playerA.onePointMore()
+            print('muy bien!!')
+        else:
+            print('a ver si mejoras :C')
 
 def answerAnimation(player):
-	global mousePressed, answerPlayer, state, timeChange
-	if player==1:
-		ballA = ball1
-	else:
-		ballA = ball2
-	renderedText = textFont.render('Respuesta anterior: ' + answerPlayer, 1, (255,255,255))
-	surface.blit(renderedText, (50, 75))
-	ballA.draw(surface, pygame)
-	if mousePressed == True : 
-		state += 1
-		mousePressed = False
-		timeChange = GAME_TIME.get_ticks()
+    global mousePressed, answerPlayer, state, timeChange, answerCorrect, answerCorrect
+    if player==1:
+        ballA = ball1
+    else:
+        ballA = ball2
+    if (answerPlayer == 'A' and answerCorrect==0) or (answerPlayer == 'B' and answerCorrect==1) or (answerPlayer == 'C' and answerCorrect==2):
+        renderedText = textFont.render('Muy bien!!!', 1, (255,255,255))
+    elif answerPlayer == 'out':
+        renderedText = textFont.render('Apunta mejor!!!', 1, (255,255,255))
+    elif answerPlayer == 'none':
+        renderedText = textFont.render('Indeciso!!!', 1, (255,255,255))
+    else:
+        renderedText = textFont.render('Ceporro!!!', 1, (255,255,255))
+    surface.blit(renderedText, (70, 75))
+    ballA.draw(surface, pygame)
+    if mousePressed == True : 
+        state += 1
+        mousePressed = False
+        timeChange = GAME_TIME.get_ticks()
 # Source in
 
 while True:
@@ -169,13 +198,12 @@ while True:
     			quitGame()
 
     if state == 0: # Waiting
-    	renderedText = textFont.render('Pulsa click para comenzar', 1, (255,255,255))
-    	surface.blit(renderedText, (50, 75))
-    	if mousePressed == True : 
-    		state += 1
-    		mousePressed = False
-    		timeChange = GAME_TIME.get_ticks()
-    
+        renderedText = textFont.render('Pulsa click para comenzar', 1, (255,255,255))
+        surface.blit(renderedText, (50, 75))
+        if mousePressed == True :
+            state += 1
+            mousePressed = False
+            timeChange = GAME_TIME.get_ticks()
     elif state == 1: # QuestionPlayer1 
         questionPlayer(1)
 
