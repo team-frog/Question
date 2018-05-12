@@ -68,9 +68,9 @@ def drawStage():
     pygame.draw.rect(surface,(255,255,255),(0, WINDOW_HEIGHT-HEIGHT_STICK, WINDOW_WIDTH, HEIGHT_STICK))
     pygame.draw.rect(surface,(150,150,150), (0, WINDOW_HEIGHT-HEIGHT_STICK, WIDTH_SCORE, HEIGHT_STICK))
     pygame.draw.rect(surface,(150,150,150), (WINDOW_WIDTH-WIDTH_SCORE, WINDOW_HEIGHT-HEIGHT_STICK, WIDTH_SCORE, HEIGHT_STICK))
-    pygame.draw.rect(surface,(255,255,255), (TARGET_A, 300, WIDTH_TARGET, 20))
-    pygame.draw.rect(surface,(255,255,255), (TARGET_B, 300, WIDTH_TARGET, 20))
-    pygame.draw.rect(surface,(255,255,255), (TARGET_C, 300, WIDTH_TARGET, 20))
+    pygame.draw.rect(surface,(196,107,20), (TARGET_A, 300, WIDTH_TARGET, 20))
+    pygame.draw.rect(surface,(196,107,20), (TARGET_B, 300, WIDTH_TARGET, 20))
+    pygame.draw.rect(surface,(196,107,20), (TARGET_C, 300, WIDTH_TARGET, 20))
 
 
 def drawTimeStick(timeLeft) :
@@ -102,8 +102,8 @@ textFont = pygame.font.SysFont("monospace", 50)
 
 player1 = objects.basketPlayer(1, X_PLAYER1, Y_PLAYERS)
 player2 = objects.basketPlayer(2, X_PLAYER2, Y_PLAYERS)
-ball1 = objects.ball(1)
-ball2 = objects.ball(2)
+ball1 = objects.ball(1, pygame)
+ball2 = objects.ball(2, pygame)
 
 
 def questionPlayer(player):
@@ -131,7 +131,16 @@ def questionPlayer(player):
         if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME :
             answerPlayer = 'none'
         else :
-            answerPlayer = answer(ballA.fallen())
+			answerPlayer = answer(ballA.fallen())
+			if answerPlayer == 'A':
+				playerA.onePointMore()
+				print('muy bien!!')
+			if answerPlayer == 'B':
+				print('a ver si mejoras :C')
+			if answerPlayer == 'C':
+				print('a ver si mejoras :C')
+			if answerPlayer == 'none':
+				print('a ver si mejoras :C')
         ballA.reset()
 
 def answerAnimation(player):

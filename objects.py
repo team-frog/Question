@@ -18,6 +18,7 @@ class basketPlayer:
 		self.initialPos = x
 		self.WIDTH = 100
 		self.HEIGHT = 150
+		self.points = 0
 		if self.type == 1:
 			self.color = (0,0,255)
 		else:
@@ -35,6 +36,9 @@ class basketPlayer:
                 self.x -= self.SPEED
             if self.x < self.initialPos:
                 self.x += self.SPEED
+    
+	def onePointMore(self):
+		self.points += 1
 
 	def move(self,xmouse): # Para mover al jugador
 		if self.x + (self.WIDTH/2) > xmouse:
@@ -52,7 +56,7 @@ class basketPlayer:
 
 
 class ball:
-	def __init__(self,type):
+	def __init__(self,type, pygame):
 		self.type = type # player 1 or player 2
 		self.x = 0 # Possition on x axis. To be defined from x,y of player
 		self.y = 0 # Possition on y axis. To be defined from x,y of player
@@ -63,17 +67,20 @@ class ball:
 		self.gravity = 1
 		self.INITIALIMPULSE = 25
 		self.impulse = self.INITIALIMPULSE
+		
+		# Images
+		self.ballImage = pygame.image.load("ball.png")
 
 	def move(self, playerPos, playerWIDTH): # Para mover la pelota
 		if self.flying == False:
 			self.x = int(playerPos[0]+(playerWIDTH-self.WIDTH)/2)
-			self.y = playerPos[1]
+			self.y = playerPos[1] + 50
 		else:
 			self.y -= self.impulse
 			self.impulse -= self.gravity
 
 	def draw(self, surface, pygame): # Para dibujar la pelota
-		pygame.draw.rect(surface, self.color, (self.x, self.y, self.WIDTH,self.HEIGHT))
+		surface.blit(self.ballImage, (self.x, self.y))
 
 	def throw(self): # Para cambiar a true la variable flying
 		self.flying = True
