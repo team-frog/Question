@@ -105,9 +105,10 @@ player2 = objects.basketPlayer(2, X_PLAYER2, Y_PLAYERS)
 ball1 = objects.ball(1)
 ball2 = objects.ball(2)
 
+mousePosition = pygame.mouse.get_pos()
 
 def questionPlayer(player):
-    global mousePressed, state, answerPlayer
+    global mousePressed, state, answerPlayer, mousePosition
     if player==1:
         playerA = player1
         ballA = ball1
@@ -135,7 +136,7 @@ def questionPlayer(player):
         ballA.reset()
 
 def answerAnimation(player):
-	global mousePressed, answerPlayer, state
+	global mousePressed, answerPlayer, state, timeChange
 	if player==1:
 		ballA = ball1
 	else:
