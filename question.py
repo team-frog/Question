@@ -31,6 +31,7 @@ toAsk = random.randint(0,len(questionList)-1) # Number of the question choosen r
 order = [1,2,3]
 random.shuffle(order)
 answerCorrect = None
+rounds = 0
 
 
 # CONSTANTS
@@ -39,6 +40,7 @@ X_PLAYER1 = 0
 X_PLAYER2 = 900
 Y_PLAYERS = 500
 Y_BALLS_INITIAL = 400
+
 WINDOW_WIDTH = 1000
 WINDOW_HEIGHT = 700
 
@@ -58,7 +60,14 @@ TARGET_C = 750
 
 WIDTH_SCORE = 100
 
+POINT_X_DESP = 25
+X_POINT1 = 0 + POINT_X_DESP
+Y_POINT1 = WINDOW_HEIGHT - HEIGHT_STICK
+X_POINT2 = WINDOW_WIDTH - WIDTH_SCORE + POINT_X_DESP
+Y_POINT2 = WINDOW_HEIGHT - HEIGHT_STICK
+
 MAX_TIME = 20000 # miliseconds
+MAX_ROUNDS = 9
 
 
 # FUNCTIONS
@@ -106,10 +115,11 @@ pygame.font.init()
 surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption('QUESTIONS GAME: ANTONIO MUÑOZ, DANIEL ROMERO. IES CANTELY')
 textFont = pygame.font.SysFont("monospace", 30)
+textFontPoints = pygame.font.SysFont("Becker", 65)
 
 
-player1 = objects.basketPlayer(1, X_PLAYER1, Y_PLAYERS)
-player2 = objects.basketPlayer(2, X_PLAYER2, Y_PLAYERS)
+player1 = objects.basketPlayer(1, X_PLAYER1, Y_PLAYERS, X_POINT1, Y_POINT1)
+player2 = objects.basketPlayer(2, X_PLAYER2, Y_PLAYERS, X_POINT2, Y_POINT2)
 ball1 = objects.ball(1, pygame)
 ball2 = objects.ball(2, pygame)
 
@@ -135,7 +145,7 @@ def questionPlayer(player):
     surface.blit(renderedText, (75, 150))
     playerB.returnToInitialPos()
     playerA.move(mousePosition[0])
-    ballA.move(playerA.getPos(), playerA.getWidth())
+    ballA.move(playerA.getPos(), playerA.getWidth(), pygame)
     ballA.draw(surface, pygame)
     if mousePressed == True:
         ballA.throw()
@@ -183,8 +193,8 @@ while True:
     mousePosition = pygame.mouse.get_pos()
     surface.fill((50,0,50))
     drawStage()
-    player1.draw(surface,pygame)
-    player2.draw(surface,pygame)
+    player1.draw(surface,pygame, textFontPoints)
+    player2.draw(surface,pygame, textFontPoints)
 
 
     	# Handle user and system events 
@@ -223,7 +233,15 @@ while True:
             state = 1
             mousePressed = False
             timeChange = GAME_TIME.get_ticks()
-
+            rounds +=1
+            if rounds == MAX_ROUNDS:
+				if player1.getPoints() > player2.getPoints():
+					print('ha ganado player1')
+				elif player2.getPoints() > player1.getPoints():
+					print('ha ganedo player2')
+				elif player1.getPoints() == player2.getPoints():
+					print('han quedado empate')
+				quitGame()
 
     clock.tick(60)
     pygame.display.update()

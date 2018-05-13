@@ -11,10 +11,12 @@ All objects of the game:
 """
 
 class basketPlayer:
-	def __init__(self, type, x, y):
+	def __init__(self, type, x, y, xPoints, yPoints):
 		self.type = type # player 1 or player 2
 		self.x = x # Possition on x axis
 		self.y = y # Possition on y axis
+		self.xPoints = xPoints
+		self.yPoints = yPoints
 		self.initialPos = x
 		self.WIDTH = 100
 		self.HEIGHT = 150
@@ -24,12 +26,15 @@ class basketPlayer:
 		else:
 			self.color = (0,255,0)
 		self.SPEED = 3
-
+	
 	def getPos(self): # Para que te devuelva un tupple con las posiciones del jugador
 		return (self.x, self.y)	
 
 	def getWidth(self): # Esta función te devuelve la anchura del jugador
 		return self.WIDTH
+	
+	def getPoints(self):
+		return self.points
 	
 	def returnToInitialPos(self): # Esta función, la cual se va ejecutando siempre que esté en el state apropiado, hace que el jugador vuelva lentamente a la posicion de inicio
             if self.x > self.initialPos:
@@ -46,9 +51,10 @@ class basketPlayer:
 		else:
 			self.x += self.SPEED
 
-	def draw(self,surface,pygame): # Para dibujar al jugador
+	def draw(self, surface, pygame, textFont): # Para dibujar al jugador
 		pygame.draw.rect(surface,self.color,(self.x, self.y, self.WIDTH, self.HEIGHT))
-
+		renderedText = textFont.render(str(self.points), 1, (255,255,255))
+		surface.blit(renderedText, (self.xPoints, self.yPoints))
 
 
 
@@ -71,17 +77,17 @@ class ball:
 		# Images
 		self.ballImage = pygame.image.load("assets/images/ball.png")
 
-	def move(self, playerPos, playerWIDTH): # Para mover la pelota
+	def move(self, playerPos, playerWIDTH, pygame): # Para mover la pelota
 		if self.flying == False:
 			self.x = int(playerPos[0]+(playerWIDTH-self.WIDTH)/2)
 			self.y = playerPos[1] + 50
 		else:
+			self.ballImage = pygame.transform.rotate(self.ballImage, 1)
 			self.y -= self.impulse
 			self.impulse -= self.gravity
 
 	def draw(self, surface, pygame): # Para dibujar la pelota
 		surface.blit(self.ballImage, (self.x, self.y))
-
 	def throw(self): # Para cambiar a true la variable flying
 		self.flying = True
 
@@ -94,6 +100,4 @@ class ball:
 			return 0
 		else :
 			return self.x+self.WIDTH/2
-
-
 
