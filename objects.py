@@ -25,7 +25,7 @@ class basketPlayer:
 			self.color = (0,0,255)
 		else:
 			self.color = (0,255,0)
-		self.SPEED = 3
+		self.SPEED = 5
 	
 	def getPos(self): # Para que te devuelva un tupple con las posiciones del jugador
 		return (self.x, self.y)	
@@ -73,21 +73,36 @@ class ball:
 		self.gravity = 1
 		self.INITIALIMPULSE = 25
 		self.impulse = self.INITIALIMPULSE
-		
+		self.ANGLE_SPEED=10
+		self.angle=0
+
 		# Images
 		self.ballImage = pygame.image.load("assets/images/ball.png")
+		self.rect=self.ballImage.get_rect()
+		self.rect.center = (self.x, self.y)
+		self.imageToDraw = self.ballImage
+
 
 	def move(self, playerPos, playerWIDTH, pygame): # Para mover la pelota
 		if self.flying == False:
-			self.x = int(playerPos[0]+(playerWIDTH-self.WIDTH)/2)
+			self.x = int(playerPos[0]+(playerWIDTH)/2)
 			self.y = playerPos[1] + 50
 		else:
-			self.ballImage = pygame.transform.rotate(self.ballImage, 1)
+			#self.ballImage = pygame.transform.rotate(self.ballImage, 90)
 			self.y -= self.impulse
 			self.impulse -= self.gravity
 
 	def draw(self, surface, pygame): # Para dibujar la pelota
-		surface.blit(self.ballImage, (self.x, self.y))
+		if self.flying == False:
+			self.rect.center = (self.x, self.y)
+			surface.blit(self.imageToDraw, self.rect)
+		else:
+			self.angle += self.ANGLE_SPEED
+			self.angle = self.angle%360
+			self.imageToDraw = pygame.transform.rotate(self.ballImage,self.angle)
+			self.rect = self.imageToDraw.get_rect()
+			self.rect.center = (self.x, self.y)
+			surface.blit(self.imageToDraw, self.rect)
 	def throw(self): # Para cambiar a true la variable flying
 		self.flying = True
 

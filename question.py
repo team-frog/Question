@@ -44,11 +44,6 @@ Y_BALLS_INITIAL = 400
 WINDOW_WIDTH = 1000
 WINDOW_HEIGHT = 700
 
-X_SCREEN = 100
-Y_SCREEN = 50
-WIDTH_SCREEN = 800
-HEIGHT_SCREEN = 200
-
 HEIGHT_STICK = 50
 HEIGHT_TIME_STICK = 30
 WIDTH_TIME_STICK = 800
@@ -67,7 +62,7 @@ X_POINT2 = WINDOW_WIDTH - WIDTH_SCORE + POINT_X_DESP
 Y_POINT2 = WINDOW_HEIGHT - HEIGHT_STICK
 
 MAX_TIME = 20000 # miliseconds
-MAX_ROUNDS = 9
+MAX_ROUNDS = 3
 
 Xtext = 120
 
@@ -217,6 +212,7 @@ while True:
     if state == 0: # Waiting
         renderedText = textFont.render('Pulsa click para comenzar', 1, (255,255,255))
         surface.blit(renderedText, (Xtext, 75))
+        rounds = 0
         if mousePressed == True :
             state += 1
             mousePressed = False
@@ -234,21 +230,27 @@ while True:
         answerAnimation(2)
 
     elif state == 5: # Round result
-    	renderedText = textFont.render('Resultado del round. Dar click', 1, (255,255,255))
-    	surface.blit(renderedText, (Xtext, 75))
-    	if mousePressed == True : 
+        if rounds == MAX_ROUNDS-1:
+            if player1.getPoints() > player2.getPoints():
+                print('ha ganado player1')
+                renderedText = textFont.render('Ha ganado el Player 1. Jugar otra vez?', 1, (255,255,255))
+            elif player2.getPoints() > player1.getPoints():
+                print('ha ganedo player2')
+                renderedText = textFont.render('Ha ganado el Player 2. Jugar otra vez?', 1, (255,255,255))
+            elif player1.getPoints() == player2.getPoints():
+                print('han quedado empate')
+                renderedText = textFont.render('Empate!!!. Jugar otra vez?', 1, (255,255,255))
+        else:
+            renderedText = textFont.render('Fin de round number: ' + str(rounds+1), 1, (255,255,255))
+        surface.blit(renderedText, (50, 75))
+        if mousePressed == True :
             state = 1
             mousePressed = False
             timeChange = GAME_TIME.get_ticks()
             rounds +=1
             if rounds == MAX_ROUNDS:
-		if player1.getPoints() > player2.getPoints():
-                    print('ha ganado player1')
-                elif player2.getPoints() > player1.getPoints():
-                    print('ha ganedo player2')
-                elif player1.getPoints() == player2.getPoints():
-                    print('han quedado empate')
-                quitGame()
+                #quitGame()
+                state = 0
 
     clock.tick(60)
     pygame.display.update()
