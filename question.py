@@ -38,7 +38,7 @@ rounds = 0
 
 X_PLAYER1 = 0
 X_PLAYER2 = 900
-Y_PLAYERS = 500
+Y_PLAYERS = 450
 Y_BALLS_INITIAL = 400
 
 WINDOW_WIDTH = 1000
@@ -69,6 +69,10 @@ Y_POINT2 = WINDOW_HEIGHT - HEIGHT_STICK
 MAX_TIME = 20000 # miliseconds
 MAX_ROUNDS = 9
 
+Xtext = 120
+
+# LOAD IMAGES
+questionScreen = pygame.image.load("assets/images/questionsScreen.png")
 
 # FUNCTIONS
 
@@ -79,13 +83,14 @@ def quitGame():
     sys.exit()
 
 def drawStage():
-    pygame.draw.rect(surface,(255,0,0),(X_SCREEN, Y_SCREEN, WIDTH_SCREEN, HEIGHT_SCREEN))
-    pygame.draw.rect(surface,(255,255,255),(0, WINDOW_HEIGHT-HEIGHT_STICK, WINDOW_WIDTH, HEIGHT_STICK))
-    pygame.draw.rect(surface,(150,150,150), (0, WINDOW_HEIGHT-HEIGHT_STICK, WIDTH_SCORE, HEIGHT_STICK))
-    pygame.draw.rect(surface,(150,150,150), (WINDOW_WIDTH-WIDTH_SCORE, WINDOW_HEIGHT-HEIGHT_STICK, WIDTH_SCORE, HEIGHT_STICK))
-    pygame.draw.rect(surface,(196,107,20), (TARGET_A, 300, WIDTH_TARGET, 20))
-    pygame.draw.rect(surface,(196,107,20), (TARGET_B, 300, WIDTH_TARGET, 20))
-    pygame.draw.rect(surface,(196,107,20), (TARGET_C, 300, WIDTH_TARGET, 20))
+	surface.blit(questionScreen, (0, 0))
+	pygame.draw.rect(surface,(125,125,125),(0,400,1000,700-400))
+	pygame.draw.rect(surface,(255,255,255),(0, WINDOW_HEIGHT-HEIGHT_STICK, WINDOW_WIDTH, HEIGHT_STICK))
+	pygame.draw.rect(surface,(0,0,0), (0, WINDOW_HEIGHT-HEIGHT_STICK, WIDTH_SCORE, HEIGHT_STICK))
+	pygame.draw.rect(surface,(0,0,0), (WINDOW_WIDTH-WIDTH_SCORE, WINDOW_HEIGHT-HEIGHT_STICK, WIDTH_SCORE, HEIGHT_STICK))
+	pygame.draw.rect(surface,(196,107,20), (TARGET_A, 300, WIDTH_TARGET, 20))
+	pygame.draw.rect(surface,(196,107,20), (TARGET_B, 300, WIDTH_TARGET, 20))
+	pygame.draw.rect(surface,(196,107,20), (TARGET_C, 300, WIDTH_TARGET, 20))
 
 
 def drawTimeStick(timeLeft) :
@@ -135,14 +140,15 @@ def questionPlayer(player):
         playerA = player2
         ballA = ball2
         playerB = player1
+	surface.blit(questionScreen, (0, 0))
     renderedText = textFont.render(questionList[toAsk][0], 1, (255,255,255))
-    surface.blit(renderedText, (75, 75))
+    surface.blit(renderedText, (Xtext, 75))
     renderedText = textFont.render('A: ' + questionList[toAsk][order[0]], 1, (255,255,255))
-    surface.blit(renderedText, (75, 100))
+    surface.blit(renderedText, (Xtext, 100))
     renderedText = textFont.render('B: ' + questionList[toAsk][order[1]], 1, (255,255,255))
-    surface.blit(renderedText, (75, 125))
+    surface.blit(renderedText, (Xtext, 125))
     renderedText = textFont.render('C: ' + questionList[toAsk][order[2]], 1, (255,255,255))
-    surface.blit(renderedText, (75, 150))
+    surface.blit(renderedText, (Xtext, 150))
     playerB.returnToInitialPos()
     playerA.move(mousePosition[0])
     ballA.move(playerA.getPos(), playerA.getWidth(), pygame)
@@ -181,7 +187,8 @@ def answerAnimation(player):
         renderedText = textFont.render('Indeciso!!!', 1, (255,255,255))
     else:
         renderedText = textFont.render('Ceporro!!!', 1, (255,255,255))
-    surface.blit(renderedText, (70, 75))
+	surface.blit(questionScreen, (0, 0))
+    surface.blit(renderedText, (Xtext, 75))
     ballA.draw(surface, pygame)
     if mousePressed == True : 
         state += 1
@@ -191,7 +198,7 @@ def answerAnimation(player):
 
 while True:
     mousePosition = pygame.mouse.get_pos()
-    surface.fill((50,0,50))
+    surface.fill((131,226,225))
     drawStage()
     player1.draw(surface,pygame, textFontPoints)
     player2.draw(surface,pygame, textFontPoints)
@@ -209,7 +216,7 @@ while True:
 
     if state == 0: # Waiting
         renderedText = textFont.render('Pulsa click para comenzar', 1, (255,255,255))
-        surface.blit(renderedText, (50, 75))
+        surface.blit(renderedText, (Xtext, 75))
         if mousePressed == True :
             state += 1
             mousePressed = False
@@ -228,20 +235,20 @@ while True:
 
     elif state == 5: # Round result
     	renderedText = textFont.render('Resultado del round. Dar click', 1, (255,255,255))
-    	surface.blit(renderedText, (50, 75))
+    	surface.blit(renderedText, (Xtext, 75))
     	if mousePressed == True : 
             state = 1
             mousePressed = False
             timeChange = GAME_TIME.get_ticks()
             rounds +=1
             if rounds == MAX_ROUNDS:
-				if player1.getPoints() > player2.getPoints():
-					print('ha ganado player1')
-				elif player2.getPoints() > player1.getPoints():
-					print('ha ganedo player2')
-				elif player1.getPoints() == player2.getPoints():
-					print('han quedado empate')
-				quitGame()
+		if player1.getPoints() > player2.getPoints():
+                    print('ha ganado player1')
+                elif player2.getPoints() > player1.getPoints():
+                    print('ha ganedo player2')
+                elif player1.getPoints() == player2.getPoints():
+                    print('han quedado empate')
+                quitGame()
 
     clock.tick(60)
     pygame.display.update()
