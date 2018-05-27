@@ -20,6 +20,7 @@ state = 0; # Waiting = 0; QuestionPlayer1 = 1;
 mousePressed = False # Para saber si el ratón está pulsado
 
 # Hay que leer el fichero CSV y crear una lista de listas como esta
+
 questionFile = open('assets/questions/prueba.csv')
 questionReader = csv.reader(questionFile, delimiter=';')
 questionList = list(questionReader)
@@ -133,47 +134,48 @@ ball2 = objects.ball(2, pygame)
 mousePosition = pygame.mouse.get_pos()
 
 def questionPlayer(player):
-	global mousePressed, state, answerPlayer, mousePosition, questionList, toAsk, answerCorrect
-	if player==1:
-		playerA = player1
-		ballA = ball1
-		playerB = player2
-	else:
-		playerA = player2
-		ballA = ball2
-		playerB = player1
-	surface.blit(questionScreen, (0, 0))
-	renderedText = textFont.render(questionList[toAsk][0], 1, (255,255,255))
-	surface.blit(renderedText, (Xtext, 75))
-	renderedText = textFont.render('A: ' + questionList[toAsk][order[0]], 1, (255,255,255))
-	surface.blit(renderedText, (Xtext, 100))
-	renderedText = textFont.render('B: ' + questionList[toAsk][order[1]], 1, (255,255,255))
-	surface.blit(renderedText, (Xtext, 125))
-	renderedText = textFont.render('C: ' + questionList[toAsk][order[2]], 1, (255,255,255))
-	surface.blit(renderedText, (Xtext, 150))
-	playerB.returnToInitialPos()
-	playerA.move(mousePosition[0])
-	ballA.move(playerA.getPos(), playerA.getWidth(), pygame)
-	ballA.draw(surface, pygame)
-	if mousePressed == True:
-		ballA.throw()
-	drawTimeStick(MAX_TIME - int(GAME_TIME.get_ticks()-timeChange))
-	if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME or ballA.fallen():
-		state += 1
-		answerCorrect = whoCorrect(order)
-		toAsk = random.randint(0,len(questionList)-1)
-		random.shuffle(order)
-		mousePressed = False
-		if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME :
-			answerPlayer = 'none'
-		else :
-			answerPlayer = answer(ballA.fallen())
-		ballA.reset()
-		if (answerPlayer == 'A' and answerCorrect==0) or (answerPlayer == 'B' and answerCorrect==1) or (answerPlayer == 'C' and answerCorrect==2): 
-			playerA.onePointMore()
-			print('muy bien!!')
-		else:
-			print('a ver si mejoras :C')
+    global mousePressed, state, answerPlayer, mousePosition, questionList, toAsk, answerCorrect
+    if player==1:
+        playerA = player1
+        ballA = ball1
+        playerB = player2
+    else:
+        playerA = player2
+        ballA = ball2
+        playerB = player1
+    surface.blit(questionScreen, (0, 0))
+    renderedText = textFont.render(questionList[toAsk][0], 1, (255,255,255))
+    surface.blit(renderedText, (Xtext, 75))
+    renderedText = textFont.render('A: ' + questionList[toAsk][order[0]], 1, (255,255,255))
+    surface.blit(renderedText, (Xtext, 100))
+    renderedText = textFont.render('B: ' + questionList[toAsk][order[1]], 1, (255,255,255))
+    surface.blit(renderedText, (Xtext, 125))
+    renderedText = textFont.render('C: ' + questionList[toAsk][order[2]], 1, (255,255,255))
+    surface.blit(renderedText, (Xtext, 150))
+    playerB.returnToInitialPos()
+    playerA.move(mousePosition[0])
+    ballA.move(playerA.getPos(), playerA.getWidth(), pygame)
+    ballA.draw(surface, pygame)
+    if mousePressed == True:
+        ballA.throw()
+    drawTimeStick(MAX_TIME - int(GAME_TIME.get_ticks()-timeChange))
+    if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME or ballA.fallen():
+        state += 1
+        questionList.pop(toAsk) # Borrar pregunta de la lista
+        answerCorrect = whoCorrect(order)
+        toAsk = random.randint(0,len(questionList)-1)
+        random.shuffle(order)
+        mousePressed = False
+        if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME :
+            answerPlayer = 'none'
+        else :
+            answerPlayer = answer(ballA.fallen())
+        ballA.reset()
+        if (answerPlayer == 'A' and answerCorrect==0) or (answerPlayer == 'B' and answerCorrect==1) or (answerPlayer == 'C' and answerCorrect==2): 
+            playerA.onePointMore()
+            print('muy bien!!')
+        else:
+            print('a ver si mejoras :C')
 
 def answerAnimation(player):
 	global mousePressed, answerPlayer, state, timeChange, answerCorrect, answerCorrect
@@ -258,6 +260,10 @@ while True:
             if rounds == MAX_ROUNDS:
                 #quitGame()
                 state = 0
+                questionFile = open('assets/questions/prueba.csv')
+                questionReader = csv.reader(questionFile, delimiter=';')
+                questionList = list(questionReader)
+                print(questionList)
 
     now = GAME_TIME.get_ticks()
     if now-last>250 :
