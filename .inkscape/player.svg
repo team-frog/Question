@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="dibujo.svg">
+  <defs
+     id="defs2987">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3713">
+      <stop
+         style="stop-color:#502d16;stop-opacity:1;"
+         offset="0"
+         id="stop3715" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop3717" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3705">
+      <stop
+         style="stop-color:#502d16;stop-opacity:1;"
+         offset="0"
+         id="stop3707" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop3709" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3697">
+      <stop
+         style="stop-color:#502d16;stop-opacity:1;"
+         offset="0"
+         id="stop3699" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop3701" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3657">
+      <stop
+         style="stop-color:#502d16;stop-opacity:1;"
+         offset="0"
+         id="stop3659" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop3661" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3649">
+      <stop
+         style="stop-color:#502d16;stop-opacity:1;"
+         offset="0"
+         id="stop3651" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop3653" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3641">
+      <stop
+         style="stop-color:#502d16;stop-opacity:1;"
+         offset="0"
+         id="stop3643" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop3645" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3641"
+       id="linearGradient3647"
+       x1="387.89856"
+       y1="171.50917"
+       x2="271.73102"
+       y2="183.631"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3649"
+       id="linearGradient3655"
+       x1="484.36813"
+       y1="172.51932"
+       x2="307.08636"
+       y2="206.35944"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3657"
+       id="linearGradient3663"
+       x1="581.34277"
+       y1="193.47998"
+       x2="418.70822"
+       y2="233.38101"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3697"
+       id="linearGradient3703"
+       x1="391.42856"
+       y1="315.93362"
+       x2="269.28571"
+       y2="332.36218"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3705"
+       id="linearGradient3711"
+       x1="485.71429"
+       y1="324.50504"
+       x2="335"
+       y2="345.21933"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3713"
+       id="linearGradient3719"
+       x1="576.42859"
+       y1="315.93362"
+       x2="387.85715"
+       y2="354.50504"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#ffffff"
+     borderopacity="0.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="0"
+     inkscape:zoom="1"
+     inkscape:cx="646.88023"
+     inkscape:cy="838.62756"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="836"
+     inkscape:window-x="0"
+     inkscape:window-y="36"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Layer -1"
+     style="opacity:1">
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 351.40681,208.75854 c -6.2016,-5.06402 -13.47965,-7.97514 -18.18274,-16.03617 -3.83742,-3.35594 10.35406,-18.09857 15.53109,-27.14785 l 12.12183,3.53554 -16.28871,22.98097 9.09138,4.67195 z"
+       id="path3115"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132"
+       inkscape:export-ydpi="132" />
+    <path
+       style="fill:#deaa87;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 369.28571,197.36219 c 3.92135,-2.07565 7.8427,-4.53921 11.76405,-5.01795 -2.17846,-4.79875 -9.74746,-14.98803 -14.62119,-22.48205 l 7.5,-4.64286 c 5.47619,9.88095 19.02758,23.08699 16.42857,29.64286 -4.87694,6.29036 -11.30213,7.41991 -17.07787,10.71428 z"
+       id="path3117"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132"
+       inkscape:export-ydpi="132" />
+    <g
+       id="g3305"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1move0.png"
+       inkscape:export-xdpi="132"
+       inkscape:export-ydpi="132">
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3115-2"
+         d="m 445.00888,216.98614 c -6.2016,-5.06402 -13.47965,-7.97514 -18.18274,-16.03617 -3.83742,-3.35594 10.35406,-18.09857 15.53109,-27.14785 l 12.12183,3.53554 -16.28871,22.98097 9.09138,4.67195 z"
+         style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3117-3"
+         d="m 462.88778,205.58979 c 3.92135,-2.07565 7.8427,-4.53921 11.76405,-5.01795 -2.17846,-4.79875 -9.74746,-14.98803 -14.62119,-22.48205 l 7.5,-4.64286 c 5.47619,9.88095 19.02758,23.08699 16.42857,29.64286 -4.87694,6.29036 -11.30213,7.41991 -17.07787,10.71428 z"
+         style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3021-3-7"
+         d="m 436.54129,241.97863 c 0.13971,3.15424 -1.90951,5.08312 -1.06216,8.32763 2.68906,1.85683 3.63072,2.58235 6.11107,1.84828 -0.22359,-3.12025 2.72023,-6.07738 4.62407,-9.19762 z"
+         style="fill:#deaa87;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3023-6-5"
+         d="m 463.99671,247.65074 c 0.86,2.6988 2.03321,5.29403 2.35065,8.15795 2.71878,1.10489 5.0883,0.8733 7.30379,0.0522 1.23648,-3.52601 1.03723,-6.46035 0.75556,-9.36071 z"
+         style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path3025-7-9"
+         d="m 434.7798,249.40506 c -3.27061,0.49215 -5.78443,0.29804 -8.15294,-0.0279 -1.5197,0.0122 -2.41433,0.76623 -2.21028,2.82405 3.92333,1.58864 9.06898,3.23799 16.20744,4.42515 0.77679,-1.47583 1.58912,-2.93629 1.60637,-4.7399 -2.57349,-0.0227 -5.13262,-0.17363 -7.45059,-2.48145 z"
+         style="fill:#338000;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path3027-5-2"
+         d="m 466.35658,255.68038 c -0.45395,2.06287 -0.45502,3.34593 -0.23745,4.25246 5.19258,1.2523 10.15907,0.42812 15.19686,0.25884 0.24944,-1.0486 1.00787,-2.25989 -0.65299,-2.69938 -2.32583,-0.38071 -4.63515,-0.69822 -7.12354,-1.70098 -2.8443,1.42674 -4.99123,0.58517 -7.18288,-0.11094 z"
+         style="fill:#338000;fill-opacity:1;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="cccccccc"
+         inkscape:connector-curvature="0"
+         id="path3019-3-2"
+         d="m 436.71243,227.25589 c -1.56847,6.93286 -3.21084,10.62452 -3.36475,15.48803 3.02243,3.97399 10.01077,4.20687 15.25582,2.64283 1.03752,-2.5519 5.29855,-5.4163 7.83756,-7.56736 2.00503,1.95481 4.05148,4.69233 3.19016,8.15793 5.75264,2.71051 9.90267,3.56893 18.30146,-1.04588 -5.26636,-6.36131 -3.00037,-11.67996 -2.6025,-17.25719 z"
+         style="fill:#008080;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="cccccccsccc"
+         inkscape:connector-curvature="0"
+         id="path3005-5-8"
+         d="m 436.88034,227.1513 c -3.59549,-1.42692 -0.18204,-7.36672 0.012,-14.4269 3.28015,-1.05653 6.86134,-7.90223 7.0399,-11.16679 l 5.53392,0.21899 c 5.70791,3.79602 6.78355,4.41263 12.1358,0.03 l 6.17254,0.0341 c -1.39884,5.15656 2.11652,11.48774 5.80161,10.78772 0.52957,2.60667 0.0674,2.80946 0.01,4.79701 -0.0419,1.45149 4.60258,9.42294 1.57628,10.35334 -12.95752,3.34717 -25.77085,4.08976 -38.28194,-0.62753 z"
+         style="fill:#ff0000;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path3011-6-9"
+         d="m 437.11898,214.36488 c 4.68371,-1.78782 7.63459,-6.23237 8.30044,-12.66756 l -1.43343,0.0203 -0.10259,0.68028 -0.0631,0.57633 -0.14995,0.85035 c 0,0 -0.26043,0.79367 -0.26832,0.85037 -0.008,0.0567 -0.22886,0.86922 -0.22886,0.86922 -0.40486,0.87484 -0.56729,1.82222 -1.27059,2.60773 -0.31567,0.39102 -0.63134,0.63089 -0.94701,1.24719 -0.49982,0.72156 -0.99963,1.36004 -1.49945,1.68179 -0.5037,0.52225 -0.99044,0.88204 -1.45209,1.00152 -0.64181,0.26411 -0.78726,0.36318 -1.02594,0.64248 z"
+         style="fill:#e6e6e6;stroke:#000000;stroke-width:0.92816371px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3013-2-7"
+         d="m 448.3161,201.99683 c 4.55114,4.66861 10.03788,5.41307 14.66669,-0.10347 l -1.34427,-0.0885 c -5.60493,4.51725 -7.39702,2.97693 -12.20196,-0.008 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3015-9-3"
+         d="m 466.4753,201.8889 c -0.26607,5.33218 0.81542,11.81825 7.20229,11.93576 l -0.0386,-1.18524 c -4.27864,-0.97511 -6.06351,-4.40726 -5.8394,-10.78619 z"
+         style="fill:#f9f9f9;stroke:#000000;stroke-width:0.8963781px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path3104-1-6"
+         d="m 449.49236,201.70364 c 7.11498,4.73501 7.58702,3.10722 12.14286,0.1025 z"
+         style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:0.8748312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path3101-2-1"
+         d="m 434.31676,178.85407 c 12.79374,-28.72749 55.24176,-2.57447 42.49716,16.22963 -11.14713,13.60822 -51.02392,10.42688 -42.49716,-16.22963 z"
+         style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1.09747195px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         inkscape:connector-curvature="0"
+         id="path3189-2-2"
+         d="m 442.12629,228.86187 -0.44643,2.10466 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         inkscape:connector-curvature="0"
+         id="path3191-6-9"
+         d="m 445.25129,229.50946 -0.44643,2.02371 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         inkscape:connector-curvature="0"
+         id="path3193-1-3"
+         d="m 448.287,229.99515 -0.44643,2.8332 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path3195-8-1"
+         d="m 451.412,230.56179 0.17857,1.21422 -0.15625,-1.45707 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         inkscape:connector-curvature="0"
+         id="path3197-7-9"
+         d="m 456.14415,230.72368 0.17857,1.53803 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         inkscape:connector-curvature="0"
+         id="path3199-9-4"
+         d="m 462.037,230.15704 1.07143,1.53802 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         inkscape:connector-curvature="0"
+         id="path3201-2-7"
+         d="m 467.037,229.5904 0.26786,1.13328 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         inkscape:connector-curvature="0"
+         id="path3203-0-8"
+         d="m 470.69772,228.94282 0.625,1.94276 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="cccccccccccscc"
+         inkscape:connector-curvature="0"
+         id="path3111-4"
+         d="m 430.74047,192.09694 c 3.96328,8.88627 8.50718,7.50386 10.01224,2.10466 0.55598,8.4541 10.07957,3.48438 6.65528,0.41387 9.54472,9.29532 15.22353,3.89869 14.14213,-1.60269 3.46316,8.27282 12.92034,7.35146 14.64721,-0.91584 0.4368,8.27488 7.75576,4.76524 7.82869,0.22897 10.51852,-0.5934 7.27892,-11.13635 1.51523,-11.67682 5.25429,-10.43633 -6.2459,-14.43607 -10.10153,-11.44784 3.03185,-4.63965 -5.15804,-11.884 -10.10152,-7.32663 -5.13366,-7.31326 -16.52485,-3.21562 -15.90991,0 -6.19841,-7.08458 -12.89873,0.1857 -12.6269,3.2054 -11.82448,-1.08555 -6.78725,10.36408 -7.62737,10.62685 -5.80276,1.81502 -7.30214,9.74043 -0.95893,10.89511 -4.03769,0.63465 -3.20008,7.53622 2.52538,5.49496 z"
+         style="fill:url(#linearGradient3655);fill-opacity:1;stroke:#000000;stroke-width:0.95216769000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g3354"
+       transform="translate(-3.0304576,-22.728432)"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1move1.png"
+       inkscape:export-xdpi="132"
+       inkscape:export-ydpi="132">
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3115-5"
+         d="m 546.0803,238.05757 c -6.2016,-5.06402 -13.47965,-7.97514 -18.18274,-16.03617 -3.83742,-3.35594 10.35406,-18.09857 15.53109,-27.14785 l 12.12183,3.53554 -16.28871,22.98097 9.09138,4.67195 z"
+         style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path3117-0"
+         d="m 563.9592,226.66122 c 3.92135,-2.07565 7.8427,-4.53921 11.76405,-5.01795 -2.17846,-4.79875 -9.74746,-14.98803 -14.62119,-22.48205 l 7.5,-4.64286 c 5.47619,9.88095 19.02758,23.08699 16.42857,29.64286 -4.87694,6.29036 -11.30213,7.41991 -17.07787,10.71428 z"
+         style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3021-3-3"
+         d="m 538.79128,266.26435 c 0.13971,3.15424 0.50121,6.15454 1.34856,9.39905 2.68906,1.85683 5.23786,1.24307 7.71821,0.509 -0.22359,-3.12025 1.20237,-5.89881 3.10621,-9.01905 z"
+         style="fill:#deaa87;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3023-6-6"
+         d="m 572.3286,266.32306 c 0.86,2.6988 4.05352,5.04149 4.37096,7.90541 0.75381,0.28414 3.50665,-0.83133 5.03094,-1.65243 1.23648,-3.52601 -0.0992,-6.33408 -0.38086,-9.23444 0.47674,-0.67062 -7.9712,3.39764 -9.02104,2.98146 z"
+         style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path3025-7-1"
+         d="m 540.06177,275.71645 c -3.04002,1.30284 -5.52128,1.75042 -7.89525,2.03377 -1.46726,0.39595 -2.14226,1.3516 -1.42471,3.29102 4.19748,0.5454 9.59294,0.84059 16.79967,0.1849 0.37854,-1.62425 0.79535,-3.24261 0.35616,-4.99202 -2.49566,0.62851 -5.00985,1.12932 -7.83587,-0.51767 z"
+         style="fill:#338000;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path3027-5-0"
+         d="m 576.74789,273.90912 c 0.4638,2.06067 0.62819,3.85443 1.2097,4.58311 5.23356,-1.06817 9.3817,-3.92093 13.87216,-6.21084 -0.21883,-1.05541 -0.0457,-2.47403 -1.7362,-2.16763 -2.26776,0.64165 -5.31451,1.2704 -7.9933,1.41766 -1.97071,2.49838 -3.07235,2.07858 -5.35236,2.3777 z"
+         style="fill:#338000;fill-opacity:1;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="cccccccc"
+         inkscape:connector-curvature="0"
+         id="path3019-3-6"
+         d="m 537.78385,248.32732 c 1.25431,7.28571 -0.13975,11.437 -1.00742,16.21129 3.02243,3.97399 11.12552,3.65583 16.37057,2.09179 1.03752,-2.5519 1.82647,-5.58852 4.36548,-7.73958 2.12644,0.61926 11.85409,5.79994 10.95571,9.67316 6.04712,1.53257 8.64813,-1.32503 17.03877,-5.90724 -5.26636,-6.36131 -9.50323,-8.33383 -9.10536,-13.91106 z"
+         style="fill:#008080;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="cccccccsccc"
+         inkscape:connector-curvature="0"
+         id="path3005-5-3"
+         d="m 537.95176,248.22273 c -3.59549,-1.42692 -0.18204,-7.36672 0.012,-14.4269 3.28015,-1.05653 6.86134,-7.90223 7.0399,-11.16679 l 5.53392,0.21899 c 5.70791,3.79602 6.78355,4.41263 12.1358,0.03 l 6.17254,0.0341 c -1.39884,5.15656 2.11652,11.48774 5.80161,10.78772 0.52957,2.60667 0.0674,2.80946 0.01,4.79701 -0.0419,1.45149 4.60258,9.42294 1.57628,10.35334 -12.95752,3.34717 -25.77085,4.08976 -38.28194,-0.62753 z"
+         style="fill:#ff0000;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path3011-6-2"
+         d="m 538.1904,235.43631 c 4.68371,-1.78782 7.63459,-6.23237 8.30044,-12.66756 l -1.43343,0.0203 -0.10259,0.68028 -0.0631,0.57633 -0.14995,0.85035 c 0,0 -0.26043,0.79367 -0.26832,0.85037 -0.008,0.0567 -0.22886,0.86922 -0.22886,0.86922 -0.40486,0.87484 -0.56729,1.82222 -1.27059,2.60773 -0.31567,0.39102 -0.63134,0.63089 -0.94701,1.24719 -0.49982,0.72156 -0.99963,1.36004 -1.49945,1.68179 -0.5037,0.52225 -0.99044,0.88204 -1.45209,1.00152 -0.64181,0.26411 -0.78726,0.36318 -1.02594,0.64248 z"
+         style="fill:#e6e6e6;stroke:#000000;stroke-width:0.92816371px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3013-2-0"
+         d="m 549.38752,223.06826 c 4.55114,4.66861 10.03788,5.41307 14.66669,-0.10347 l -1.34427,-0.0885 c -5.60493,4.51725 -7.39702,2.97693 -12.20196,-0.008 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3015-9-6"
+         d="m 567.54672,222.96033 c -0.26607,5.33218 0.81542,11.81825 7.20229,11.93576 l -0.0386,-1.18524 c -4.27864,-0.97511 -6.06351,-4.40726 -5.8394,-10.78619 z"
+         style="fill:#f9f9f9;stroke:#000000;stroke-width:0.8963781px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path3104-1-1"
+         d="m 550.56378,222.77507 c 7.11498,4.73501 7.58702,3.10722 12.14286,0.1025 z"
+         style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:0.8748312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path3101-2-5"
+         d="m 535.38818,199.9255 c 12.79374,-28.72749 55.24176,-2.57447 42.49716,16.22963 -11.14713,13.60822 -51.02392,10.42688 -42.49716,-16.22963 z"
+         style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1.09747195px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         inkscape:connector-curvature="0"
+         id="path3189-2-5"
+         d="m 543.19771,249.9333 -0.44643,2.10466 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         inkscape:connector-curvature="0"
+         id="path3191-6-4"
+         d="m 546.32271,250.58089 -0.44643,2.02371 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         inkscape:connector-curvature="0"
+         id="path3193-1-7"
+         d="m 549.35842,251.06658 -0.44643,2.8332 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path3195-8-6"
+         d="m 552.48342,251.63322 0.17857,1.21422 -0.15625,-1.45707 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         inkscape:connector-curvature="0"
+         id="path3197-7-5"
+         d="m 557.21557,251.79511 0.17857,1.53803 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         inkscape:connector-curvature="0"
+         id="path3199-9-6"
+         d="m 563.10842,251.22847 1.07143,1.53802 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         inkscape:connector-curvature="0"
+         id="path3201-2-9"
+         d="m 568.10842,250.66183 0.26786,1.13328 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         inkscape:connector-curvature="0"
+         id="path3203-0-3"
+         d="m 571.76914,250.01425 0.625,1.94276 z"
+         style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="132.7943"
+         inkscape:export-xdpi="132.7943"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player.png"
+         sodipodi:nodetypes="cccccccccccscc"
+         inkscape:connector-curvature="0"
+         id="path3111-7"
+         d="m 531.81189,213.16837 c 3.96328,8.88627 8.50718,7.50386 10.01224,2.10466 0.55598,8.4541 10.07957,3.48438 6.65528,0.41387 9.54472,9.29532 15.22353,3.89869 14.14213,-1.60269 3.46316,8.27282 12.92034,7.35146 14.64721,-0.91584 0.4368,8.27488 7.75576,4.76524 7.82869,0.22897 10.51852,-0.5934 7.27892,-11.13635 1.51523,-11.67682 5.25429,-10.43633 -6.2459,-14.43607 -10.10153,-11.44784 3.03185,-4.63965 -5.15804,-11.884 -10.10152,-7.32663 -5.13366,-7.31326 -16.52485,-3.21562 -15.90991,0 -6.19841,-7.08458 -12.89873,0.1857 -12.6269,3.2054 -11.82448,-1.08555 -6.78725,10.36408 -7.62737,10.62685 -5.80276,1.81502 -7.30214,9.74043 -0.95893,10.89511 -4.03769,0.63465 -3.20008,7.53622 2.52538,5.49496 z"
+         style="fill:url(#linearGradient3663);fill-opacity:1;stroke:#000000;stroke-width:0.95216769000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 349.79154,351.50523 c -6.2016,-5.06402 -13.47965,-7.97514 -18.18274,-16.03617 -3.83742,-3.35594 10.35406,-18.09857 15.53109,-27.14785 l 12.12183,3.53554 -16.28871,22.98097 9.09138,4.67195 z"
+       id="path3115-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132"
+       inkscape:export-ydpi="132" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 367.67044,340.10888 c 3.92135,-2.07565 7.8427,-4.53921 11.76405,-5.01795 -2.17846,-4.79875 -9.74746,-14.98803 -14.62119,-22.48205 l 7.5,-4.64286 c 5.47619,9.88095 19.02758,23.08699 16.42857,29.64286 -4.87694,6.29036 -11.30213,7.41991 -17.07787,10.71428 z"
+       id="path3117-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132"
+       inkscape:export-ydpi="132" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 443.3936,359.73283 c -6.2016,-5.06402 -13.47965,-7.97514 -18.18274,-16.03617 -3.83742,-3.35594 10.35406,-18.09857 15.53109,-27.14785 l 12.12183,3.53554 -16.28871,22.98097 9.09138,4.67195 z"
+       id="path3115-2-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132"
+       inkscape:export-ydpi="132" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 461.2725,348.33648 c 3.92135,-2.07565 7.8427,-4.53921 11.76405,-5.01795 -2.17846,-4.79875 -9.74746,-14.98803 -14.62119,-22.48205 l 7.5,-4.64286 c 5.47619,9.88095 19.02758,23.08699 16.42857,29.64286 -4.87694,6.29036 -11.30213,7.41991 -17.07787,10.71428 z"
+       id="path3117-3-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132"
+       inkscape:export-ydpi="132" />
+    <path
+       style="fill:#deaa87;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 434.92601,384.72532 c 0.13971,3.15424 -1.90951,5.08312 -1.06216,8.32763 2.68906,1.85683 3.63072,2.58235 6.11107,1.84828 -0.22359,-3.12025 2.72023,-6.07738 4.62407,-9.19762 z"
+       id="path3021-3-7-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 462.38143,390.39743 c 0.86,2.6988 2.03321,5.29403 2.35065,8.15795 2.71878,1.10489 5.0883,0.8733 7.30379,0.0522 1.23648,-3.52601 1.03723,-6.46035 0.75556,-9.36071 z"
+       id="path3023-6-5-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#800000;stroke:#000000;stroke-width:0.74209689999999995px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 433.16452,392.15175 c -3.27061,0.49215 -5.78443,0.29804 -8.15294,-0.0279 -1.5197,0.0122 -2.41433,0.76623 -2.21028,2.82405 3.92333,1.58864 9.06898,3.23799 16.20744,4.42515 0.77679,-1.47583 1.58912,-2.93629 1.60637,-4.7399 -2.57349,-0.0227 -5.13262,-0.17363 -7.45059,-2.48145 z"
+       id="path3025-7-9-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#800000;fill-opacity:1;stroke:#000000;stroke-width:0.74209689999999995px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 464.7413,398.42707 c -0.45395,2.06287 -0.45502,3.34593 -0.23745,4.25246 5.19258,1.2523 10.15907,0.42812 15.19686,0.25884 0.24944,-1.0486 1.00787,-2.25989 -0.65299,-2.69938 -2.32583,-0.38071 -4.63515,-0.69822 -7.12354,-1.70098 -2.8443,1.42674 -4.99123,0.58517 -7.18288,-0.11094 z"
+       id="path3027-5-2-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#008000;stroke:#000000;stroke-width:0.74209689999999995px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 435.09715,370.00258 c -1.56847,6.93286 -3.21084,10.62452 -3.36475,15.48803 3.02243,3.97399 10.01077,4.20687 15.25582,2.64283 1.03752,-2.5519 5.29855,-5.4163 7.83756,-7.56736 2.00503,1.95481 4.05148,4.69233 3.19016,8.15793 5.75264,2.71051 9.90267,3.56893 18.30146,-1.04588 -5.26636,-6.36131 -3.00037,-11.67996 -2.6025,-17.25719 z"
+       id="path3019-3-2-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#008080;stroke:#000000;stroke-width:0.74209689999999995px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 435.26506,369.89799 c -3.59549,-1.42692 -0.18204,-7.36672 0.012,-14.4269 3.28015,-1.05653 6.86134,-7.90223 7.0399,-11.16679 l 5.53392,0.21899 c 5.70791,3.79602 6.78355,4.41263 12.1358,0.03 l 6.17254,0.0341 c -1.39884,5.15656 2.11652,11.48774 5.80161,10.78772 0.52957,2.60667 0.0674,2.80946 0.01,4.79701 -0.0419,1.45149 4.60258,9.42294 1.57628,10.35334 -12.95752,3.34717 -25.77085,4.08976 -38.28194,-0.62753 z"
+       id="path3005-5-8-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccsccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:0.92816371px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 435.5037,357.11157 c 4.68371,-1.78782 7.63459,-6.23237 8.30044,-12.66756 l -1.43343,0.0203 -0.10259,0.68028 -0.0631,0.57633 -0.14995,0.85035 c 0,0 -0.26043,0.79367 -0.26832,0.85037 -0.008,0.0567 -0.22886,0.86922 -0.22886,0.86922 -0.40486,0.87484 -0.56729,1.82222 -1.27059,2.60773 -0.31567,0.39102 -0.63134,0.63089 -0.94701,1.24719 -0.49982,0.72156 -0.99963,1.36004 -1.49945,1.68179 -0.5037,0.52225 -0.99044,0.88204 -1.45209,1.00152 -0.64181,0.26411 -0.78726,0.36318 -1.02594,0.64248 z"
+       id="path3011-6-9-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 446.70082,344.74352 c 4.55114,4.66861 10.03788,5.41307 14.66669,-0.10347 l -1.34427,-0.0885 c -5.60493,4.51725 -7.39702,2.97693 -12.20196,-0.008 z"
+       id="path3013-2-7-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#f9f9f9;stroke:#000000;stroke-width:0.8963781px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 464.86002,344.63559 c -0.26607,5.33218 0.81542,11.81825 7.20229,11.93576 l -0.0386,-1.18524 c -4.27864,-0.97511 -6.06351,-4.40726 -5.8394,-10.78619 z"
+       id="path3015-9-3-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:0.8748312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 447.87708,344.45033 c 7.11498,4.73501 7.58702,3.10722 12.14286,0.1025 z"
+       id="path3104-1-6-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1.09747195px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 432.70148,321.60076 c 12.79374,-28.72749 55.24176,-2.57447 42.49716,16.22963 -11.14713,13.60822 -51.02392,10.42688 -42.49716,-16.22963 z"
+       id="path3101-2-1-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 440.51101,371.60856 -0.44643,2.10466 z"
+       id="path3189-2-2-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 443.63601,372.25615 -0.44643,2.02371 z"
+       id="path3191-6-9-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 446.67172,372.74184 -0.44643,2.8332 z"
+       id="path3193-1-3-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 449.79672,373.30848 0.17857,1.21422 -0.15625,-1.45707 z"
+       id="path3195-8-1-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 454.52887,373.47037 0.17857,1.53803 z"
+       id="path3197-7-9-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 460.42172,372.90373 1.07143,1.53802 z"
+       id="path3199-9-4-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 465.42172,372.33709 0.26786,1.13328 z"
+       id="path3201-2-7-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 469.08244,371.68951 0.625,1.94276 z"
+       id="path3203-0-8-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:url(#linearGradient3711);fill-opacity:1;stroke:#000000;stroke-width:0.95216769000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 429.12519,334.84363 c 3.96328,8.88627 8.50718,7.50386 10.01224,2.10466 0.55598,8.4541 10.07957,3.48438 6.65528,0.41387 9.54472,9.29532 15.22353,3.89869 14.14213,-1.60269 3.46316,8.27282 12.92034,7.35146 14.64721,-0.91584 0.4368,8.27488 7.75576,4.76524 7.82869,0.22897 10.51852,-0.5934 7.27892,-11.13635 1.51523,-11.67682 5.25429,-10.43633 -6.2459,-14.43607 -10.10153,-11.44784 3.03185,-4.63965 -5.15804,-11.884 -10.10152,-7.32663 -5.13366,-7.31326 -16.52485,-3.21562 -15.90991,0 -6.19841,-7.08458 -12.89873,0.1857 -12.6269,3.2054 -11.82448,-1.08555 -6.78725,10.36408 -7.62737,10.62685 -5.80276,1.81502 -7.30214,9.74043 -0.95893,10.89511 -4.03769,0.63465 -3.20008,7.53622 2.52538,5.49496 z"
+       id="path3111-4-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccscc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 541.43457,358.07583 c -6.2016,-5.06402 -13.47965,-7.97514 -18.18274,-16.03617 -3.83742,-3.35594 10.35406,-18.09857 15.53109,-27.14785 l 12.12183,3.53554 -16.28871,22.98097 9.09138,4.67195 z"
+       id="path3115-5-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132"
+       inkscape:export-ydpi="132" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 559.31347,346.67948 c 3.92135,-2.07565 7.8427,-4.53921 11.76405,-5.01795 -2.17846,-4.79875 -9.74746,-14.98803 -14.62119,-22.48205 l 7.5,-4.64286 c 5.47619,9.88095 19.02758,23.08699 16.42857,29.64286 -4.87694,6.29036 -11.30213,7.41991 -17.07787,10.71428 z"
+       id="path3117-0-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132"
+       inkscape:export-ydpi="132" />
+    <path
+       style="fill:#deaa87;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 534.14555,386.28261 c 0.13971,3.15424 0.50121,6.15454 1.34856,9.39905 2.68906,1.85683 5.23786,1.24307 7.71821,0.509 -0.22359,-3.12025 1.20237,-5.89881 3.10621,-9.01905 z"
+       id="path3021-3-3-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 567.68287,386.34132 c 0.86,2.6988 4.05352,5.04149 4.37096,7.90541 0.75381,0.28414 3.50665,-0.83133 5.03094,-1.65243 1.23648,-3.52601 -0.0992,-6.33408 -0.38086,-9.23444 0.47674,-0.67062 -7.9712,3.39764 -9.02104,2.98146 z"
+       id="path3023-6-6-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#800000;stroke:#000000;stroke-width:0.74209689999999995px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 535.41604,395.73471 c -3.04002,1.30284 -5.52128,1.75042 -7.89525,2.03377 -1.46726,0.39595 -2.14226,1.3516 -1.42471,3.29102 4.19748,0.5454 9.59294,0.84059 16.79967,0.1849 0.37854,-1.62425 0.79535,-3.24261 0.35616,-4.99202 -2.49566,0.62851 -5.00985,1.12932 -7.83587,-0.51767 z"
+       id="path3025-7-1-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#800000;fill-opacity:1;stroke:#000000;stroke-width:0.74209689999999995px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 572.10216,393.92738 c 0.4638,2.06067 0.62819,3.85443 1.2097,4.58311 5.23356,-1.06817 9.3817,-3.92093 13.87216,-6.21084 -0.21883,-1.05541 -0.0457,-2.47403 -1.7362,-2.16763 -2.26776,0.64165 -5.31451,1.2704 -7.9933,1.41766 -1.97071,2.49838 -3.07235,2.07858 -5.35236,2.3777 z"
+       id="path3027-5-0-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#008000;stroke:#000000;stroke-width:0.74209689999999995px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 533.13812,368.34558 c 1.25431,7.28571 -0.13975,11.437 -1.00742,16.21129 3.02243,3.97399 11.12552,3.65583 16.37057,2.09179 1.03752,-2.5519 1.82647,-5.58852 4.36548,-7.73958 2.12644,0.61926 11.85409,5.79994 10.95571,9.67316 6.04712,1.53257 8.64813,-1.32503 17.03877,-5.90724 -5.26636,-6.36131 -9.50323,-8.33383 -9.10536,-13.91106 z"
+       id="path3019-3-6-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#008080;stroke:#000000;stroke-width:0.74209689999999984px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 533.30603,368.24099 c -3.59549,-1.42692 -0.18204,-7.36672 0.012,-14.4269 3.28015,-1.05653 6.86134,-7.90223 7.0399,-11.16679 l 5.53392,0.21899 c 5.70791,3.79602 6.78355,4.41263 12.1358,0.03 l 6.17254,0.0341 c -1.39884,5.15656 2.11652,11.48774 5.80161,10.78772 0.52957,2.60667 0.0674,2.80946 0.01,4.79701 -0.0419,1.45149 4.60258,9.42294 1.57628,10.35334 -12.95752,3.34717 -25.77085,4.08976 -38.28194,-0.62753 z"
+       id="path3005-5-3-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccsccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:0.92816371px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 533.54467,355.45457 c 4.68371,-1.78782 7.63459,-6.23237 8.30044,-12.66756 l -1.43343,0.0203 -0.10259,0.68028 -0.0631,0.57633 -0.14995,0.85035 c 0,0 -0.26043,0.79367 -0.26832,0.85037 -0.008,0.0567 -0.22886,0.86922 -0.22886,0.86922 -0.40486,0.87484 -0.56729,1.82222 -1.27059,2.60773 -0.31567,0.39102 -0.63134,0.63089 -0.94701,1.24719 -0.49982,0.72156 -0.99963,1.36004 -1.49945,1.68179 -0.5037,0.52225 -0.99044,0.88204 -1.45209,1.00152 -0.64181,0.26411 -0.78726,0.36318 -1.02594,0.64248 z"
+       id="path3011-6-2-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 544.74179,343.08652 c 4.55114,4.66861 10.03788,5.41307 14.66669,-0.10347 l -1.34427,-0.0885 c -5.60493,4.51725 -7.39702,2.97693 -12.20196,-0.008 z"
+       id="path3013-2-0-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#f9f9f9;stroke:#000000;stroke-width:0.8963781px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 562.90099,342.97859 c -0.26607,5.33218 0.81542,11.81825 7.20229,11.93576 l -0.0386,-1.18524 c -4.27864,-0.97511 -6.06351,-4.40726 -5.8394,-10.78619 z"
+       id="path3015-9-6-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:0.8748312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 545.91805,342.79333 c 7.11498,4.73501 7.58702,3.10722 12.14286,0.1025 z"
+       id="path3104-1-1-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1.09747195px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 530.74245,319.94376 c 12.79374,-28.72749 55.24176,-2.57447 42.49716,16.22963 -11.14713,13.60822 -51.02392,10.42688 -42.49716,-16.22963 z"
+       id="path3101-2-5-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 538.55198,369.95156 -0.44643,2.10466 z"
+       id="path3189-2-5-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 541.67698,370.59915 -0.44643,2.02371 z"
+       id="path3191-6-4-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 544.71269,371.08484 -0.44643,2.8332 z"
+       id="path3193-1-7-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 547.83769,371.65148 0.17857,1.21422 -0.15625,-1.45707 z"
+       id="path3195-8-6-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 552.56984,371.81337 0.17857,1.53803 z"
+       id="path3197-7-5-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 558.46269,371.24673 1.07143,1.53802 z"
+       id="path3199-9-6-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 563.46269,370.68009 0.26786,1.13328 z"
+       id="path3201-2-9-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 567.12341,370.03251 0.625,1.94276 z"
+       id="path3203-0-3-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:url(#linearGradient3719);fill-opacity:1;stroke:#000000;stroke-width:0.95216769000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 527.16616,333.18663 c 3.96328,8.88627 8.50718,7.50386 10.01224,2.10466 0.55598,8.4541 10.07957,3.48438 6.65528,0.41387 9.54472,9.29532 15.22353,3.89869 14.14213,-1.60269 3.46316,8.27282 12.92034,7.35146 14.64721,-0.91584 0.4368,8.27488 7.75576,4.76524 7.82869,0.22897 10.51852,-0.5934 7.27892,-11.13635 1.51523,-11.67682 5.25429,-10.43633 -6.2459,-14.43607 -10.10153,-11.44784 3.03185,-4.63965 -5.15804,-11.884 -10.10152,-7.32663 -5.13366,-7.31326 -16.52485,-3.21562 -15.90991,0 -6.19841,-7.08458 -12.89873,0.1857 -12.6269,3.2054 -11.82448,-1.08555 -6.78725,10.36408 -7.62737,10.62685 -5.80276,1.81502 -7.30214,9.74043 -0.95893,10.89511 -4.03769,0.63465 -3.20008,7.53622 2.52538,5.49496 z"
+       id="path3111-7-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccscc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#deaa87;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 342.50252,379.71201 c 0.13971,3.15424 0.50121,6.15454 1.34856,9.39905 2.68906,1.85683 5.23786,1.24307 7.71821,0.509 -0.22359,-3.12025 1.20237,-5.89881 3.10621,-9.01905 z"
+       id="path3021-3-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 368.77937,382.16983 c 0.86,2.6988 2.03321,5.29403 2.35065,8.15795 2.71878,1.10489 5.0883,0.8733 7.30379,0.0522 1.23648,-3.52601 1.03723,-6.46035 0.75556,-9.36071 z"
+       id="path3023-6-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#800000;stroke:#000000;stroke-width:0.74209689999999995px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 343.77301,389.16411 c -3.04002,1.30284 -5.52128,1.75042 -7.89525,2.03377 -1.46726,0.39595 -2.14226,1.3516 -1.42471,3.29102 4.19748,0.5454 9.59294,0.84059 16.79967,0.1849 0.37854,-1.62425 0.79535,-3.24261 0.35616,-4.99202 -2.49566,0.62851 -5.00985,1.12932 -7.83587,-0.51767 z"
+       id="path3025-7-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#800000;fill-opacity:1;stroke:#000000;stroke-width:0.74209689999999984px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 371.13924,390.19947 c -0.45395,2.06287 -0.45502,3.34593 -0.23745,4.25246 5.19258,1.2523 10.15907,0.42812 15.19686,0.25884 0.24944,-1.0486 1.00787,-2.25989 -0.65299,-2.69938 -2.32583,-0.38071 -4.63515,-0.69822 -7.12354,-1.70098 -2.8443,1.42674 -4.99123,0.58517 -7.18288,-0.11094 z"
+       id="path3027-5-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#008000;stroke:#000000;stroke-width:0.74209689999999995px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 341.49509,361.77498 c 1.25431,7.28571 -0.13975,11.437 -1.00742,16.21129 3.02243,3.97399 11.12552,3.65583 16.37057,2.09179 1.03752,-2.5519 1.82647,-5.58852 4.36548,-7.73958 2.00503,1.95481 4.05148,4.69233 3.19016,8.15793 5.75264,2.71051 9.90267,3.56893 18.30146,-1.04588 -5.26636,-6.36131 -3.00037,-11.67996 -2.6025,-17.25719 z"
+       id="path3019-3-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#008080;stroke:#000000;stroke-width:0.74209689999999995px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 341.663,361.67039 c -3.59549,-1.42692 -0.18204,-7.36672 0.012,-14.4269 3.28015,-1.05653 6.86134,-7.90223 7.0399,-11.16679 l 5.53392,0.21899 c 5.70791,3.79602 6.78355,4.41263 12.1358,0.03 l 6.17254,0.0341 c -1.39884,5.15656 2.11652,11.48774 5.80161,10.78772 0.52957,2.60667 0.0674,2.80946 0.01,4.79701 -0.0419,1.45149 4.60258,9.42294 1.57628,10.35334 -12.95752,3.34717 -25.77085,4.08976 -38.28194,-0.62753 z"
+       id="path3005-5-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccsccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:0.92816371px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 341.90164,348.88397 c 4.68371,-1.78782 7.63459,-6.23237 8.30044,-12.66756 l -1.43343,0.0203 -0.10259,0.68028 -0.0631,0.57633 -0.14995,0.85035 c 0,0 -0.26043,0.79367 -0.26832,0.85037 -0.008,0.0567 -0.22886,0.86922 -0.22886,0.86922 -0.40486,0.87484 -0.56729,1.82222 -1.27059,2.60773 -0.31567,0.39102 -0.63134,0.63089 -0.94701,1.24719 -0.49982,0.72156 -0.99963,1.36004 -1.49945,1.68179 -0.5037,0.52225 -0.99044,0.88204 -1.45209,1.00152 -0.64181,0.26411 -0.78726,0.36318 -1.02594,0.64248 z"
+       id="path3011-6-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 353.09876,336.51592 c 4.55114,4.66861 10.03788,5.41307 14.66669,-0.10347 l -1.34427,-0.0885 c -5.60493,4.51725 -7.39702,2.97693 -12.20196,-0.008 z"
+       id="path3013-2-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#f9f9f9;stroke:#000000;stroke-width:0.8963781px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 371.25796,336.40799 c -0.26607,5.33218 0.81542,11.81825 7.20229,11.93576 l -0.0386,-1.18524 c -4.27864,-0.97511 -6.06351,-4.40726 -5.8394,-10.78619 z"
+       id="path3015-9-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:0.8748312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 354.27502,336.22273 c 7.11498,4.73501 7.58702,3.10722 12.14286,0.1025 z"
+       id="path3104-1-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1.09747195px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 339.09942,313.37316 c 12.79374,-28.72749 55.24176,-2.57447 42.49716,16.22963 -11.14713,13.60822 -51.02392,10.42688 -42.49716,-16.22963 z"
+       id="path3101-2-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 346.90895,363.38096 -0.44643,2.10466 z"
+       id="path3189-2-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 350.03395,364.02855 -0.44643,2.02371 z"
+       id="path3191-6-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 353.06966,364.51424 -0.44643,2.8332 z"
+       id="path3193-1-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 356.19466,365.08088 0.17857,1.21422 -0.15625,-1.45707 z"
+       id="path3195-8-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 360.92681,365.24277 0.17857,1.53803 z"
+       id="path3197-7-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 366.81966,364.67613 1.07143,1.53802 z"
+       id="path3199-9-65"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 371.81966,364.10949 0.26786,1.13328 z"
+       id="path3201-2-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 375.48038,363.46191 0.625,1.94276 z"
+       id="path3203-0-39"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:url(#linearGradient3703);fill-opacity:1;stroke:#000000;stroke-width:0.95216769000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 335.52313,326.61603 c 3.96328,8.88627 8.50718,7.50386 10.01224,2.10466 0.55598,8.4541 10.07957,3.48438 6.65528,0.41387 9.54472,9.29532 15.22353,3.89869 14.14213,-1.60269 3.46316,8.27282 12.92034,7.35146 14.64721,-0.91584 0.4368,8.27488 7.75576,4.76524 7.82869,0.22897 10.51852,-0.5934 7.27892,-11.13635 1.51523,-11.67682 5.25429,-10.43633 -6.2459,-14.43607 -10.10153,-11.44784 3.03185,-4.63965 -5.15804,-11.884 -10.10152,-7.32663 -5.13366,-7.31326 -16.52485,-3.21562 -15.90991,0 -6.19841,-7.08458 -12.89873,0.1857 -12.6269,3.2054 -11.82448,-1.08555 -6.78725,10.36408 -7.62737,10.62685 -5.80276,1.81502 -7.30214,9.74043 -0.95893,10.89511 -4.03769,0.63465 -3.20008,7.53622 2.52538,5.49496 z"
+       id="path3111-48"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccscc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
+       x="357.84653"
+       y="209.38989"
+       id="text3745"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3747"
+         x="357.84653"
+         y="209.38989" /></text>
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Capa 4" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Capa 5">
+    <path
+       style="fill:#deaa87;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 344.11779,236.96532 c 0.13971,3.15424 0.50121,6.15454 1.34856,9.39905 2.68906,1.85683 5.23786,1.24307 7.71821,0.509 -0.22359,-3.12025 1.20237,-5.89881 3.10621,-9.01905 z"
+       id="path3021-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 370.39464,239.42314 c 0.86,2.6988 2.03321,5.29403 2.35065,8.15795 2.71878,1.10489 5.0883,0.8733 7.30379,0.0522 1.23648,-3.52601 1.03723,-6.46035 0.75556,-9.36071 z"
+       id="path3023-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#338000;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 345.38828,246.41742 c -3.04002,1.30284 -5.52128,1.75042 -7.89525,2.03377 -1.46726,0.39595 -2.14226,1.3516 -1.42471,3.29102 4.19748,0.5454 9.59294,0.84059 16.79967,0.1849 0.37854,-1.62425 0.79535,-3.24261 0.35616,-4.99202 -2.49566,0.62851 -5.00985,1.12932 -7.83587,-0.51767 z"
+       id="path3025-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#338000;fill-opacity:1;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 372.75451,247.45278 c -0.45395,2.06287 -0.45502,3.34593 -0.23745,4.25246 5.19258,1.2523 10.15907,0.42812 15.19686,0.25884 0.24944,-1.0486 1.00787,-2.25989 -0.65299,-2.69938 -2.32583,-0.38071 -4.63515,-0.69822 -7.12354,-1.70098 -2.8443,1.42674 -4.99123,0.58517 -7.18288,-0.11094 z"
+       id="path3027-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#008080;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 343.11036,219.02829 c 1.25431,7.28571 -0.13975,11.437 -1.00742,16.21129 3.02243,3.97399 11.12552,3.65583 16.37057,2.09179 1.03752,-2.5519 1.82647,-5.58852 4.36548,-7.73958 2.00503,1.95481 4.05148,4.69233 3.19016,8.15793 5.75264,2.71051 9.90267,3.56893 18.30146,-1.04588 -5.26636,-6.36131 -3.00037,-11.67996 -2.6025,-17.25719 z"
+       id="path3019-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 343.27827,218.9237 c -3.59549,-1.42692 -0.18204,-7.36672 0.012,-14.4269 3.28015,-1.05653 6.86134,-7.90223 7.0399,-11.16679 l 5.53392,0.21899 c 5.70791,3.79602 6.78355,4.41263 12.1358,0.03 l 6.17254,0.0341 c -1.39884,5.15656 2.11652,11.48774 5.80161,10.78772 0.52957,2.60667 0.0674,2.80946 0.01,4.79701 -0.0419,1.45149 4.60258,9.42294 1.57628,10.35334 -12.95752,3.34717 -25.77085,4.08976 -38.28194,-0.62753 z"
+       id="path3005-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccsccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:0.92816371px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 343.51691,206.13728 c 4.68371,-1.78782 7.63459,-6.23237 8.30044,-12.66756 l -1.43343,0.0203 -0.10259,0.68028 -0.0631,0.57633 -0.14995,0.85035 c 0,0 -0.26043,0.79367 -0.26832,0.85037 -0.008,0.0567 -0.22886,0.86922 -0.22886,0.86922 -0.40486,0.87484 -0.56729,1.82222 -1.27059,2.60773 -0.31567,0.39102 -0.63134,0.63089 -0.94701,1.24719 -0.49982,0.72156 -0.99963,1.36004 -1.49945,1.68179 -0.5037,0.52225 -0.99044,0.88204 -1.45209,1.00152 -0.64181,0.26411 -0.78726,0.36318 -1.02594,0.64248 z"
+       id="path3011-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.7420969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 354.71403,193.76923 c 4.55114,4.66861 10.03788,5.41307 14.66669,-0.10347 l -1.34427,-0.0885 c -5.60493,4.51725 -7.39702,2.97693 -12.20196,-0.008 z"
+       id="path3013-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#f9f9f9;stroke:#000000;stroke-width:0.8963781px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 372.87323,193.6613 c -0.26607,5.33218 0.81542,11.81825 7.20229,11.93576 l -0.0386,-1.18524 c -4.27864,-0.97511 -6.06351,-4.40726 -5.8394,-10.78619 z"
+       id="path3015-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:0.8748312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 355.89029,193.47604 c 7.11498,4.73501 7.58702,3.10722 12.14286,0.1025 z"
+       id="path3104-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:#deaa87;fill-opacity:1;stroke:#000000;stroke-width:1.09747195px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 340.71469,170.62647 c 12.79374,-28.72749 55.24176,-2.57447 42.49716,16.22963 -11.14713,13.60822 -51.02392,10.42688 -42.49716,-16.22963 z"
+       id="path3101-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 348.52422,220.63427 -0.44643,2.10466 z"
+       id="path3189-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 351.64922,221.28186 -0.44643,2.02371 z"
+       id="path3191-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 354.68493,221.76755 -0.44643,2.8332 z"
+       id="path3193-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 357.80993,222.33419 0.17857,1.21422 -0.15625,-1.45707 z"
+       id="path3195-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 362.54208,222.49608 0.17857,1.53803 z"
+       id="path3197-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 368.43493,221.92944 1.07143,1.53802 z"
+       id="path3199-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 373.43493,221.3628 0.26786,1.13328 z"
+       id="path3201-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.95216769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 377.09565,220.71522 0.625,1.94276 z"
+       id="path3203-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+    <path
+       style="fill:url(#linearGradient3647);fill-opacity:1;stroke:#000000;stroke-width:0.95216769000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 337.1384,183.86934 c 3.96328,8.88627 8.50718,7.50386 10.01224,2.10466 0.55598,8.4541 10.07957,3.48438 6.65528,0.41387 9.54472,9.29532 15.22353,3.89869 14.14213,-1.60269 3.46316,8.27282 12.92034,7.35146 14.64721,-0.91584 0.4368,8.27488 7.75576,4.76524 7.82869,0.22897 10.51852,-0.5934 7.27892,-11.13635 1.51523,-11.67682 5.25429,-10.43633 -6.2459,-14.43607 -10.10153,-11.44784 3.03185,-4.63965 -5.15804,-11.884 -10.10152,-7.32663 -5.13366,-7.31326 -16.52485,-3.21562 -15.90991,0 -6.19841,-7.08458 -12.89873,0.1857 -12.6269,3.2054 -11.82448,-1.08555 -6.78725,10.36408 -7.62737,10.62685 -5.80276,1.81502 -7.30214,9.74043 -0.95893,10.89511 -4.03769,0.63465 -3.20008,7.53622 2.52538,5.49496 z"
+       id="path3111"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccscc"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+       inkscape:export-xdpi="132.7943"
+       inkscape:export-ydpi="132.7943" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:19.28248595999999893px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
+     x="356.2081"
+     y="217.09232"
+     id="text3749"
+     sodipodi:linespacing="125%"
+     inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1start.png"
+     inkscape:export-xdpi="132"
+     inkscape:export-ydpi="132"><tspan
+       sodipodi:role="line"
+       id="tspan3751"
+       x="356.2081"
+       y="217.09232">1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:19.28248595999999893px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
+     x="468.10648"
+     y="181.51369"
+     id="text3749-9"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.99573645,0.09224378,-0.09224378,0.99573645,0,0)"
+     inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1move0.png"
+     inkscape:export-xdpi="132"
+     inkscape:export-ydpi="132"><tspan
+       sodipodi:role="line"
+       id="tspan3751-0"
+       x="468.10648"
+       y="181.51369">1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:19.28248595999999893px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
+     x="548.74445"
+     y="222.90109"
+     id="text3749-8"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.99999942,-0.00107783,0.00107783,0.99999942,0,0)"
+     inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player1move1.png"
+     inkscape:export-xdpi="132"
+     inkscape:export-ydpi="132"><tspan
+       sodipodi:role="line"
+       id="tspan3751-3"
+       x="548.74445"
+       y="222.90109">1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20.91899872000000116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
+     x="354.07031"
+     y="358.43362"
+     id="text3783"
+     sodipodi:linespacing="125%"
+     inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2start.png"
+     inkscape:export-xdpi="132"
+     inkscape:export-ydpi="132"><tspan
+       sodipodi:role="line"
+       id="tspan3785"
+       x="354.07031"
+       y="358.43362">2</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20.91899872000000116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
+     x="467.96466"
+     y="340.68484"
+     id="text3783-8"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.99843162,0.05598476,-0.05598476,0.99843162,0,0)"
+     inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move0.png"
+     inkscape:export-xdpi="132"
+     inkscape:export-ydpi="132"><tspan
+       sodipodi:role="line"
+       id="tspan3785-7"
+       x="467.96466"
+       y="340.68484">2</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20.91899872000000116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
+     x="531.04712"
+     y="387.44095"
+     id="text3783-3"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.99917067,-0.04071819,0.04071819,0.99917067,0,0)"
+     inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/player2move1.png"
+     inkscape:export-xdpi="132"
+     inkscape:export-ydpi="132"><tspan
+       sodipodi:role="line"
+       id="tspan3785-1"
+       x="531.04712"
+       y="387.44095">2</tspan></text>
+</svg>
