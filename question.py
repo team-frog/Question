@@ -32,6 +32,9 @@ order = [1,2,3]
 random.shuffle(order)
 answerCorrect = None
 rounds = 0
+pos = 0 # 1: Left leg up; 2: Right leg up
+last = 0
+now = 0
 
 
 # CONSTANTS
@@ -118,85 +121,85 @@ textFont = pygame.font.SysFont("monospace", 20)
 textFontPoints = pygame.font.SysFont("Becker", 65)
 
 
-player1 = objects.basketPlayer(1, X_PLAYER1, Y_PLAYERS, X_POINT1, Y_POINT1)
-player2 = objects.basketPlayer(2, X_PLAYER2, Y_PLAYERS, X_POINT2, Y_POINT2)
+player1 = objects.basketPlayer(1, X_PLAYER1, Y_PLAYERS, X_POINT1, Y_POINT1, pygame)
+player2 = objects.basketPlayer(2, X_PLAYER2, Y_PLAYERS, X_POINT2, Y_POINT2, pygame)
 ball1 = objects.ball(1, pygame)
 ball2 = objects.ball(2, pygame)
 
 mousePosition = pygame.mouse.get_pos()
 
 def questionPlayer(player):
-    global mousePressed, state, answerPlayer, mousePosition, questionList, toAsk, answerCorrect
-    if player==1:
-        playerA = player1
-        ballA = ball1
-        playerB = player2
-    else:
-        playerA = player2
-        ballA = ball2
-        playerB = player1
+	global mousePressed, state, answerPlayer, mousePosition, questionList, toAsk, answerCorrect
+	if player==1:
+		playerA = player1
+		ballA = ball1
+		playerB = player2
+	else:
+		playerA = player2
+		ballA = ball2
+		playerB = player1
 	surface.blit(questionScreen, (0, 0))
-    renderedText = textFont.render(questionList[toAsk][0], 1, (255,255,255))
-    surface.blit(renderedText, (Xtext, 75))
-    renderedText = textFont.render('A: ' + questionList[toAsk][order[0]], 1, (255,255,255))
-    surface.blit(renderedText, (Xtext, 100))
-    renderedText = textFont.render('B: ' + questionList[toAsk][order[1]], 1, (255,255,255))
-    surface.blit(renderedText, (Xtext, 125))
-    renderedText = textFont.render('C: ' + questionList[toAsk][order[2]], 1, (255,255,255))
-    surface.blit(renderedText, (Xtext, 150))
-    playerB.returnToInitialPos()
-    playerA.move(mousePosition[0])
-    ballA.move(playerA.getPos(), playerA.getWidth(), pygame)
-    ballA.draw(surface, pygame)
-    if mousePressed == True:
-        ballA.throw()
-    drawTimeStick(MAX_TIME - int(GAME_TIME.get_ticks()-timeChange))
-    if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME or ballA.fallen():
-        state += 1
-        answerCorrect = whoCorrect(order)
-        toAsk = random.randint(0,len(questionList)-1)
-        random.shuffle(order)
-        mousePressed = False
-        if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME :
-            answerPlayer = 'none'
-        else :
-            answerPlayer = answer(ballA.fallen())
-        ballA.reset()
-        if (answerPlayer == 'A' and answerCorrect==0) or (answerPlayer == 'B' and answerCorrect==1) or (answerPlayer == 'C' and answerCorrect==2): 
-            playerA.onePointMore()
-            print('muy bien!!')
-        else:
-            print('a ver si mejoras :C')
+	renderedText = textFont.render(questionList[toAsk][0], 1, (255,255,255))
+	surface.blit(renderedText, (Xtext, 75))
+	renderedText = textFont.render('A: ' + questionList[toAsk][order[0]], 1, (255,255,255))
+	surface.blit(renderedText, (Xtext, 100))
+	renderedText = textFont.render('B: ' + questionList[toAsk][order[1]], 1, (255,255,255))
+	surface.blit(renderedText, (Xtext, 125))
+	renderedText = textFont.render('C: ' + questionList[toAsk][order[2]], 1, (255,255,255))
+	surface.blit(renderedText, (Xtext, 150))
+	playerB.returnToInitialPos()
+	playerA.move(mousePosition[0])
+	ballA.move(playerA.getPos(), playerA.getWidth(), pygame)
+	ballA.draw(surface, pygame)
+	if mousePressed == True:
+		ballA.throw()
+	drawTimeStick(MAX_TIME - int(GAME_TIME.get_ticks()-timeChange))
+	if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME or ballA.fallen():
+		state += 1
+		answerCorrect = whoCorrect(order)
+		toAsk = random.randint(0,len(questionList)-1)
+		random.shuffle(order)
+		mousePressed = False
+		if (GAME_TIME.get_ticks()-timeChange) > MAX_TIME :
+			answerPlayer = 'none'
+		else :
+			answerPlayer = answer(ballA.fallen())
+		ballA.reset()
+		if (answerPlayer == 'A' and answerCorrect==0) or (answerPlayer == 'B' and answerCorrect==1) or (answerPlayer == 'C' and answerCorrect==2): 
+			playerA.onePointMore()
+			print('muy bien!!')
+		else:
+			print('a ver si mejoras :C')
 
 def answerAnimation(player):
-    global mousePressed, answerPlayer, state, timeChange, answerCorrect, answerCorrect
-    if player==1:
-        ballA = ball1
-    else:
-        ballA = ball2
-    if (answerPlayer == 'A' and answerCorrect==0) or (answerPlayer == 'B' and answerCorrect==1) or (answerPlayer == 'C' and answerCorrect==2):
-        renderedText = textFont.render('Muy bien!!!', 1, (255,255,255))
-    elif answerPlayer == 'out':
-        renderedText = textFont.render('Apunta mejor!!!', 1, (255,255,255))
-    elif answerPlayer == 'none':
-        renderedText = textFont.render('Indeciso!!!', 1, (255,255,255))
-    else:
-        renderedText = textFont.render('Ceporro!!!', 1, (255,255,255))
+	global mousePressed, answerPlayer, state, timeChange, answerCorrect, answerCorrect
+	if player==1:
+		ballA = ball1
+	else:
+		ballA = ball2
+	if (answerPlayer == 'A' and answerCorrect==0) or (answerPlayer == 'B' and answerCorrect==1) or (answerPlayer == 'C' and answerCorrect==2):
+		renderedText = textFont.render('Muy bien!!!', 1, (255,255,255))
+	elif answerPlayer == 'out':
+		renderedText = textFont.render('Apunta mejor!!!', 1, (255,255,255))
+	elif answerPlayer == 'none':
+		renderedText = textFont.render('Indeciso!!!', 1, (255,255,255))
+	else:
+		renderedText = textFont.render('Ceporro!!!', 1, (255,255,255))
 	surface.blit(questionScreen, (0, 0))
-    surface.blit(renderedText, (Xtext, 75))
-    ballA.draw(surface, pygame)
-    if mousePressed == True : 
-        state += 1
-        mousePressed = False
-        timeChange = GAME_TIME.get_ticks()
+	surface.blit(renderedText, (Xtext, 75))
+	ballA.draw(surface, pygame)
+	if mousePressed == True : 
+	    state += 1
+	    mousePressed = False
+	    timeChange = GAME_TIME.get_ticks()
 # Source in
 
 while True:
     mousePosition = pygame.mouse.get_pos()
     surface.fill((131,226,225))
     drawStage()
-    player1.draw(surface,pygame, textFontPoints)
-    player2.draw(surface,pygame, textFontPoints)
+    
+    
 
 
     	# Handle user and system events 
@@ -252,6 +255,16 @@ while True:
                 #quitGame()
                 state = 0
 
+    now = GAME_TIME.get_ticks()
+    if now-last>250 :
+    	if pos == 1 : 
+    		pos = 2
+    	else : 
+    		pos = 1
+    	last = now
+    player1.draw(surface, textFontPoints, pos)
+    player2.draw(surface, textFontPoints, pos)
+    
     clock.tick(60)
     pygame.display.update()
     

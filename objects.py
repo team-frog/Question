@@ -11,7 +11,7 @@ All objects of the game:
 """
 
 class basketPlayer:
-	def __init__(self, type, x, y, xPoints, yPoints):
+	def __init__(self, type, x, y, xPoints, yPoints, pygame):
 		self.type = type # player 1 or player 2
 		self.x = x # Possition on x axis
 		self.y = y # Possition on y axis
@@ -22,10 +22,15 @@ class basketPlayer:
 		self.HEIGHT = 150
 		self.points = 0
 		if self.type == 1:
-			self.color = (0,0,255)
+			self.playerMove0 = pygame.image.load("assets/images/player1move0.png")
+			self.playerMove1 = pygame.image.load("assets/images/player1move1.png")
+			self.playerStart = pygame.image.load("assets/images/player1start.png")
 		else:
-			self.color = (0,255,0)
+			self.playerMove0 = pygame.image.load("assets/images/player2move0.png")
+			self.playerMove1 = pygame.image.load("assets/images/player2move1.png")
+			self.playerStart = pygame.image.load("assets/images/player2start.png")
 		self.SPEED = 5
+
 	
 	def getPos(self): # Para que te devuelva un tupple con las posiciones del jugador
 		return (self.x, self.y)	
@@ -51,8 +56,16 @@ class basketPlayer:
 		else:
 			self.x += self.SPEED
 
-	def draw(self, surface, pygame, textFont): # Para dibujar al jugador
-		pygame.draw.rect(surface,self.color,(self.x, self.y, self.WIDTH, self.HEIGHT))
+	def draw(self, surface, textFont, pos): # Para dibujar al jugador
+		#pygame.draw.rect(surface,self.color,(self.x, self.y, self.WIDTH, self.HEIGHT))
+		if self.x == self.initialPos:
+			toDraw = self.playerStart
+		elif pos == 1 :
+			toDraw = self.playerMove0
+		else :
+			toDraw = self.playerMove1
+		
+		surface.blit(toDraw, (self.x, self.y))
 		renderedText = textFont.render(str(self.points), 1, (255,255,255))
 		surface.blit(renderedText, (self.xPoints, self.yPoints))
 
