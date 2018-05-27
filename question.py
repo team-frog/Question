@@ -62,7 +62,7 @@ X_POINT2 = WINDOW_WIDTH - WIDTH_SCORE + POINT_X_DESP
 Y_POINT2 = WINDOW_HEIGHT - HEIGHT_STICK
 
 MAX_TIME = 20000 # miliseconds
-MAX_ROUNDS = 3
+MAX_ROUNDS = 9
 
 Xtext = 120
 
@@ -114,7 +114,7 @@ clock = pygame.time.Clock()
 pygame.font.init()
 surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption('QUESTIONS GAME: ANTONIO MUÑOZ, DANIEL ROMERO. IES CANTELY')
-textFont = pygame.font.SysFont("monospace", 30)
+textFont = pygame.font.SysFont("monospace", 20)
 textFontPoints = pygame.font.SysFont("Becker", 65)
 
 
