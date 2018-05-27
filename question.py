@@ -32,6 +32,9 @@ order = [1,2,3]
 random.shuffle(order)
 answerCorrect = None
 rounds = 0
+pos = 0 # 1: Left leg up; 2: Right leg up
+last = 0
+now = 0
 
 
 # CONSTANTS
@@ -118,8 +121,8 @@ textFont = pygame.font.SysFont("monospace", 20)
 textFontPoints = pygame.font.SysFont("Becker", 65)
 
 
-player1 = objects.basketPlayer(1, X_PLAYER1, Y_PLAYERS, X_POINT1, Y_POINT1)
-player2 = objects.basketPlayer(2, X_PLAYER2, Y_PLAYERS, X_POINT2, Y_POINT2)
+player1 = objects.basketPlayer(1, X_PLAYER1, Y_PLAYERS, X_POINT1, Y_POINT1, pygame)
+player2 = objects.basketPlayer(2, X_PLAYER2, Y_PLAYERS, X_POINT2, Y_POINT2, pygame)
 ball1 = objects.ball(1, pygame)
 ball2 = objects.ball(2, pygame)
 
@@ -195,8 +198,8 @@ while True:
     mousePosition = pygame.mouse.get_pos()
     surface.fill((131,226,225))
     drawStage()
-    player1.draw(surface,pygame, textFontPoints)
-    player2.draw(surface,pygame, textFontPoints)
+    
+    
 
 
     	# Handle user and system events 
@@ -252,6 +255,16 @@ while True:
                 #quitGame()
                 state = 0
 
+    now = GAME_TIME.get_ticks()
+    if now-last>250 :
+    	if pos == 1 : 
+    		pos = 2
+    	else : 
+    		pos = 1
+    	last = now
+    player1.draw(surface, textFontPoints, pos)
+    player2.draw(surface, textFontPoints, pos)
+    
     clock.tick(60)
     pygame.display.update()
     
