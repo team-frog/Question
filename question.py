@@ -210,7 +210,7 @@ while True:
     			quitGame()
 
     if state == 0: # Waiting
-        renderedText = textFont.render('Pulsa click para comenzar', 1, (255,255,255))
+        renderedText = textFont.render(str('Pulsa click para comenzar'), 1, (255,255,255))
         surface.blit(renderedText, (Xtext, 75))
         rounds = 0
         if mousePressed == True :
@@ -242,7 +242,7 @@ while True:
                 renderedText = textFont.render('Empate!!!. Jugar otra vez?', 1, (255,255,255))
         else:
             renderedText = textFont.render('Fin de round number: ' + str(rounds+1), 1, (255,255,255))
-        surface.blit(renderedText, (50, 75))
+        surface.blit(renderedText, (Xtext, 75))
         if mousePressed == True :
             state = 1
             mousePressed = False

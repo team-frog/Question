@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8-sig -*-
 """
 Created on Sun May  6 12:44:08 2018
 
