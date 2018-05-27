@@ -51,10 +51,12 @@ HEIGHT_STICK = 50
 HEIGHT_TIME_STICK = 30
 WIDTH_TIME_STICK = 800
 
-WIDTH_TARGET = 100
-TARGET_A = 150
-TARGET_B = 450
-TARGET_C = 750
+WIDTH_TARGET = 75
+TARGET_A = 115
+TARGET_B = 462
+TARGET_C = 810
+Y_TARGET = 355
+HEIGHT_TARGET = 10
 
 WIDTH_SCORE = 100
 
@@ -71,6 +73,7 @@ Xtext = 120
 
 # LOAD IMAGES
 questionScreen = pygame.image.load("assets/images/questionsScreen.png")
+baskets = pygame.image.load("assets/images/baskets.png")
 
 # FUNCTIONS
 
@@ -86,9 +89,10 @@ def drawStage():
 	pygame.draw.rect(surface,(255,255,255),(0, WINDOW_HEIGHT-HEIGHT_STICK, WINDOW_WIDTH, HEIGHT_STICK))
 	pygame.draw.rect(surface,(0,0,0), (0, WINDOW_HEIGHT-HEIGHT_STICK, WIDTH_SCORE, HEIGHT_STICK))
 	pygame.draw.rect(surface,(0,0,0), (WINDOW_WIDTH-WIDTH_SCORE, WINDOW_HEIGHT-HEIGHT_STICK, WIDTH_SCORE, HEIGHT_STICK))
-	pygame.draw.rect(surface,(196,107,20), (TARGET_A, 300, WIDTH_TARGET, 20))
-	pygame.draw.rect(surface,(196,107,20), (TARGET_B, 300, WIDTH_TARGET, 20))
-	pygame.draw.rect(surface,(196,107,20), (TARGET_C, 300, WIDTH_TARGET, 20))
+	surface.blit(baskets, (75, 280))
+	pygame.draw.rect(surface,(196,107,20), (TARGET_A, Y_TARGET, WIDTH_TARGET, HEIGHT_TARGET))
+	pygame.draw.rect(surface,(196,107,20), (TARGET_B, Y_TARGET, WIDTH_TARGET, HEIGHT_TARGET))
+	pygame.draw.rect(surface,(196,107,20), (TARGET_C, Y_TARGET, WIDTH_TARGET, HEIGHT_TARGET))
 
 
 def drawTimeStick(timeLeft) :

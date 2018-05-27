@@ -15,7 +15,7 @@
    id="svg3009"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="Documento nuevo 4">
+   sodipodi:docname="basket.svg">
   <defs
      id="defs3011">
     <linearGradient
@@ -62,8 +62,92 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient3028-6">
+      <stop
+         style="stop-color:#008000;stop-opacity:1;"
+         offset="0"
+         id="stop3030-7" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop3032-5" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3044-5">
+      <stop
+         style="stop-color:#e6e6e6;stop-opacity:1;"
+         offset="0"
+         id="stop3046-6" />
+      <stop
+         style="stop-color:#e6e6e6;stop-opacity:0;"
+         offset="1"
+         id="stop3048-2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3028-3">
+      <stop
+         style="stop-color:#008000;stop-opacity:1;"
+         offset="0"
+         id="stop3030-6" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop3032-0" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3044-2">
+      <stop
+         style="stop-color:#e6e6e6;stop-opacity:1;"
+         offset="0"
+         id="stop3046-61" />
+      <stop
+         style="stop-color:#e6e6e6;stop-opacity:0;"
+         offset="1"
+         id="stop3048-8" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3028-6"
+       id="linearGradient3122"
+       gradientUnits="userSpaceOnUse"
+       x1="172.5"
+       y1="367.71933"
+       x2="148.92857"
+       y2="372.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3044-5"
+       id="linearGradient3124"
+       gradientUnits="userSpaceOnUse"
+       x1="196.78572"
+       y1="306.29074"
+       x2="72.5"
+       y2="363.79074" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3028-3"
+       id="linearGradient3126"
+       gradientUnits="userSpaceOnUse"
+       x1="172.5"
+       y1="367.71933"
+       x2="148.92857"
+       y2="372.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3044-2"
+       id="linearGradient3128"
+       gradientUnits="userSpaceOnUse"
+       x1="196.78572"
+       y1="306.29074"
+       x2="72.5"
+       y2="363.79074" />
+    <linearGradient
+       inkscape:collect="always"
        xlink:href="#linearGradient3028"
-       id="linearGradient3064"
+       id="linearGradient3130"
        gradientUnits="userSpaceOnUse"
        x1="172.5"
        y1="367.71933"
@@ -72,7 +156,7 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3044"
-       id="linearGradient3066"
+       id="linearGradient3132"
        gradientUnits="userSpaceOnUse"
        x1="196.78572"
        y1="306.29074"
@@ -86,9 +170,9 @@
      borderopacity="0.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="0"
-     inkscape:zoom="1.979899"
-     inkscape:cx="142.68613"
-     inkscape:cy="707.72358"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="274.37784"
+     inkscape:cy="806.27782"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -118,32 +202,142 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g3058"
-       transform="translate(-65.154839,24.748737)"
-       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/basket.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <path
-         sodipodi:nodetypes="ccccccc"
-         inkscape:connector-curvature="0"
-         id="path3026"
-         d="m 161.87695,327.07265 c 0.5229,9.40296 -0.10923,15.2009 0.50245,28.9962 0.82683,16.43864 -1.0084,31.42937 -0.50245,46.76525 1.74297,2.87105 9.67551,2.63028 10.85406,0 -0.33672,-11.15377 -1.89317,-23.1207 -1.01015,-33.46131 -0.0689,-14.50569 0.67343,-28.20009 1.01015,-42.30014 z"
-         style="fill:url(#linearGradient3064);fill-opacity:1;stroke:#000000;stroke-width:0.94626349px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3019"
-         d="m 134.28571,332.18361 67.85715,0 0,-46.96429 -67.85715,-0.35714 z"
-         style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3021"
-         d="m 136.08649,330.51349 64.0028,0 0,-43.5944 -64.22377,0 z"
-         style="fill:url(#linearGradient3066);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3023"
-         d="m 153.49634,294.18166 0,18.63882 29.02533,0 0,-19.77707 -29.16762,0 z"
-         style="fill:none;stroke:#800000;stroke-width:1.1268084px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       id="g3095"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/baskets.png"
+       inkscape:export-xdpi="203.49127"
+       inkscape:export-ydpi="203.49127"
+       transform="translate(0,-3.0304576)">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/basket.png"
+         transform="translate(-65.154839,24.748737)"
+         id="g3058">
+        <path
+           style="fill:url(#linearGradient3130);fill-opacity:1;stroke:#000000;stroke-width:0.94626349px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 161.87695,327.07265 c 0.5229,9.40296 -0.10923,15.2009 0.50245,28.9962 0.82683,16.43864 -1.0084,31.42937 -0.50245,46.76525 1.74297,2.87105 9.67551,2.63028 10.85406,0 -0.33672,-11.15377 -1.89317,-23.1207 -1.01015,-33.46131 -0.0689,-14.50569 0.67343,-28.20009 1.01015,-42.30014 z"
+           id="path3026"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccc" />
+        <path
+           style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 134.28571,332.18361 67.85715,0 0,-46.96429 -67.85715,-0.35714 z"
+           id="path3019"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:url(#linearGradient3132);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 136.08649,330.51349 64.0028,0 0,-43.5944 -64.22377,0 z"
+           id="path3021"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#800000;stroke-width:1.1268084px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 153.49634,294.18166 0,18.63882 29.02533,0 0,-19.77707 -29.16762,0 z"
+           id="path3023"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3083"
+         y="335.04843"
+         x="96.106186"
+         style="font-size:20.93249512px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto Bold"
+         xml:space="preserve"><tspan
+           y="335.04843"
+           x="96.106186"
+           id="tspan3085"
+           sodipodi:role="line">A</tspan></text>
+    </g>
+    <g
+       id="g3104"
+       transform="translate(57.590655,-2.9140886)"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/baskets.png"
+       inkscape:export-xdpi="203.49127"
+       inkscape:export-ydpi="203.49127">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/basket.png"
+         transform="translate(30.785765,24.632368)"
+         id="g3058-9">
+        <path
+           style="fill:url(#linearGradient3122);fill-opacity:1;stroke:#000000;stroke-width:0.94626349px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 161.87695,327.07265 c 0.5229,9.40296 -0.10923,15.2009 0.50245,28.9962 0.82683,16.43864 -1.0084,31.42937 -0.50245,46.76525 1.74297,2.87105 9.67551,2.63028 10.85406,0 -0.33672,-11.15377 -1.89317,-23.1207 -1.01015,-33.46131 -0.0689,-14.50569 0.67343,-28.20009 1.01015,-42.30014 z"
+           id="path3026-1"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccc" />
+        <path
+           style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 134.28571,332.18361 67.85715,0 0,-46.96429 -67.85715,-0.35714 z"
+           id="path3019-2"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:url(#linearGradient3124);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 136.08649,330.51349 64.0028,0 0,-43.5944 -64.22377,0 z"
+           id="path3021-7"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#800000;stroke-width:1.1268084px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 153.49634,294.18166 0,18.63882 29.02533,0 0,-19.77707 -29.16762,0 z"
+           id="path3023-0"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3087"
+         y="334.29333"
+         x="192.28613"
+         style="font-size:19.51518631px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto Bold"
+         xml:space="preserve"><tspan
+           y="334.29333"
+           x="192.28613"
+           id="tspan3089"
+           sodipodi:role="line">B</tspan></text>
+    </g>
+    <g
+       id="g3113"
+       transform="translate(109.09647,-4.4293176)"
+       inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/baskets.png"
+       inkscape:export-xdpi="203.49127"
+       inkscape:export-ydpi="203.49127">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/pi/programas_python/juegosEnPython/Question/assets/images/basket.png"
+         transform="translate(132.81117,26.147597)"
+         id="g3058-7">
+        <path
+           style="fill:url(#linearGradient3126);fill-opacity:1;stroke:#000000;stroke-width:0.94626349px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 161.87695,327.07265 c 0.5229,9.40296 -0.10923,15.2009 0.50245,28.9962 0.82683,16.43864 -1.0084,31.42937 -0.50245,46.76525 1.74297,2.87105 9.67551,2.63028 10.85406,0 -0.33672,-11.15377 -1.89317,-23.1207 -1.01015,-33.46131 -0.0689,-14.50569 0.67343,-28.20009 1.01015,-42.30014 z"
+           id="path3026-9"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccc" />
+        <path
+           style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 134.28571,332.18361 67.85715,0 0,-46.96429 -67.85715,-0.35714 z"
+           id="path3019-20"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:url(#linearGradient3128);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 136.08649,330.51349 64.0028,0 0,-43.5944 -64.22377,0 z"
+           id="path3021-2"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#800000;stroke-width:1.1268084px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 153.49634,294.18166 0,18.63882 29.02533,0 0,-19.77707 -29.16762,0 z"
+           id="path3023-3"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3091"
+         y="336.35684"
+         x="294.4371"
+         style="font-size:19.80945015px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto Bold"
+         xml:space="preserve"><tspan
+           y="336.35684"
+           x="294.4371"
+           id="tspan3093"
+           sodipodi:role="line">C</tspan></text>
     </g>
   </g>
 </svg>
