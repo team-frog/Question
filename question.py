@@ -20,7 +20,7 @@ state = 0; # Waiting = 0; QuestionPlayer1 = 1;
 mousePressed = False # Para saber si el ratón está pulsado
 
 # Hay que leer el fichero CSV y crear una lista de listas como esta
-questionFile = open('assets/questions/prueba.csv')
+questionFile = open('assets/questions/questions.csv')
 questionReader = csv.reader(questionFile, delimiter=';')
 questionList = list(questionReader)
 
@@ -171,9 +171,6 @@ def questionPlayer(player):
 		ballA.reset()
 		if (answerPlayer == 'A' and answerCorrect==0) or (answerPlayer == 'B' and answerCorrect==1) or (answerPlayer == 'C' and answerCorrect==2): 
 			playerA.onePointMore()
-			print('muy bien!!')
-		else:
-			print('a ver si mejoras :C')
 
 def answerAnimation(player):
 	global mousePressed, answerPlayer, state, timeChange, answerCorrect, answerCorrect
@@ -182,13 +179,13 @@ def answerAnimation(player):
 	else:
 		ballA = ball2
 	if (answerPlayer == 'A' and answerCorrect==0) or (answerPlayer == 'B' and answerCorrect==1) or (answerPlayer == 'C' and answerCorrect==2):
-		renderedText = textFont.render('Muy bien!!!', 1, (255,255,255))
+		renderedText = textFont.render('Très bien!!!', 1, (255,255,255))
 	elif answerPlayer == 'out':
-		renderedText = textFont.render('Apunta mejor!!!', 1, (255,255,255))
+		renderedText = textFont.render('Viser mieux!!!', 1, (255,255,255))
 	elif answerPlayer == 'none':
-		renderedText = textFont.render('Indeciso!!!', 1, (255,255,255))
+		renderedText = textFont.render('Indécis!!!', 1, (255,255,255))
 	else:
-		renderedText = textFont.render('Ceporro!!!', 1, (255,255,255))
+		renderedText = textFont.render('Tu es sûr?', 1, (255,255,255))
 	surface.blit(questionScreen, (0, 0))
 	surface.blit(renderedText, (Xtext, 75))
 	ballA.draw(surface, pygame)
@@ -217,7 +214,7 @@ while True:
     			quitGame()
 
     if state == 0: # Waiting
-        renderedText = textFont.render(str('Pulsa click para comenzar'), 1, (255,255,255))
+        renderedText = textFont.render(str('Cliquez pour commencer'), 1, (255,255,255))
         surface.blit(renderedText, (Xtext, 75))
         rounds = 0
         if mousePressed == True :
@@ -239,16 +236,13 @@ while True:
     elif state == 5: # Round result
         if rounds == MAX_ROUNDS-1:
             if player1.getPoints() > player2.getPoints():
-                print('ha ganado player1')
-                renderedText = textFont.render('Ha ganado el Player 1. Jugar otra vez?', 1, (255,255,255))
+                renderedText = textFont.render('L\'équipe 1 a gagné, rejouer?', 1, (255,255,255))
             elif player2.getPoints() > player1.getPoints():
-                print('ha ganedo player2')
-                renderedText = textFont.render('Ha ganado el Player 2. Jugar otra vez?', 1, (255,255,255))
+                renderedText = textFont.render('L\'équipe 2 a gagné, rejouer?', 1, (255,255,255))
             elif player1.getPoints() == player2.getPoints():
-                print('han quedado empate')
-                renderedText = textFont.render('Empate!!!. Jugar otra vez?', 1, (255,255,255))
+                renderedText = textFont.render('match nul!!! Rejouer?', 1, (255,255,255))
         else:
-            renderedText = textFont.render('Fin de round number: ' + str(rounds+1), 1, (255,255,255))
+            renderedText = textFont.render('Fin du tour: ' + str(rounds+1), 1, (255,255,255))
         surface.blit(renderedText, (Xtext, 75))
         if mousePressed == True :
             state = 1
