@@ -248,10 +248,11 @@ while True:
             if rounds == MAX_ROUNDS:
                 #quitGame()
                 state = 0
-                questionFile = open('assets/questions/prueba.csv')
+                questionFile = open('assets/questions/questions.csv')
                 questionReader = csv.reader(questionFile, delimiter=';')
                 questionList = list(questionReader)
-                print(questionList)
+                player1.resetPoints()
+                player2.resetPoints()
 
     now = GAME_TIME.get_ticks()
     if now-last>250 :
