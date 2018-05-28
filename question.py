@@ -199,11 +199,7 @@ while True:
     mousePosition = pygame.mouse.get_pos()
     surface.fill((131,226,225))
     drawStage()
-    
-    
-
-
-    	# Handle user and system events 
+    # Handle user and system events 
     for event in GAME_EVENTS.get():
     		if event.type == pygame.KEYDOWN:
     			if event.key == pygame.K_ESCAPE:
@@ -252,6 +248,10 @@ while True:
             if rounds == MAX_ROUNDS:
                 #quitGame()
                 state = 0
+                questionFile = open('assets/questions/prueba.csv')
+                questionReader = csv.reader(questionFile, delimiter=';')
+                questionList = list(questionReader)
+                print(questionList)
 
     now = GAME_TIME.get_ticks()
     if now-last>250 :
