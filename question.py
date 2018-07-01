@@ -66,7 +66,7 @@ Y_POINT1 = WINDOW_HEIGHT - HEIGHT_STICK
 X_POINT2 = WINDOW_WIDTH - WIDTH_SCORE + POINT_X_DESP
 Y_POINT2 = WINDOW_HEIGHT - HEIGHT_STICK
 
-MAX_TIME = 20000 # miliseconds
+MAX_TIME = 40000 # miliseconds
 MAX_ROUNDS = 9
 
 Xtext = 120
@@ -175,19 +175,19 @@ def questionPlayer(player):
 			playerA.onePointMore()
 
 def answerAnimation(player):
-	global mousePressed, answerPlayer, state, timeChange, answerCorrect, answerCorrect
+	global mousePressed, answerPlayer, state, timeChange, answerCorrect
 	if player==1:
 		ballA = ball1
 	else:
 		ballA = ball2
 	if (answerPlayer == 'A' and answerCorrect==0) or (answerPlayer == 'B' and answerCorrect==1) or (answerPlayer == 'C' and answerCorrect==2):
-		renderedText = textFont.render('Très bien!!!', 1, (255,255,255))
+		renderedText = textFont.render('Very good!!!', 1, (255,255,255))
 	elif answerPlayer == 'out':
-		renderedText = textFont.render('Viser mieux!!!', 1, (255,255,255))
+		renderedText = textFont.render('Aim better!!!', 1, (255,255,255))
 	elif answerPlayer == 'none':
-		renderedText = textFont.render('Indécis!!!', 1, (255,255,255))
+		renderedText = textFont.render('Undecided!!!', 1, (255,255,255))
 	else:
-		renderedText = textFont.render('Tu es sûr?', 1, (255,255,255))
+		renderedText = textFont.render('Are you sure?', 1, (255,255,255))
 	surface.blit(questionScreen, (0, 0))
 	surface.blit(renderedText, (Xtext, 75))
 	ballA.draw(surface, pygame)
@@ -215,7 +215,7 @@ while True:
     			quitGame()
 
     if state == 0: # Waiting
-        renderedText = textFont.render(str('Cliquez pour commencer'), 1, (255,255,255))
+        renderedText = textFont.render(str('Click to start'), 1, (255,255,255))
         surface.blit(renderedText, (Xtext, 75))
         rounds = 0
         if mousePressed == True :
@@ -237,13 +237,13 @@ while True:
     elif state == 5: # Round result
         if rounds == MAX_ROUNDS-1:
             if player1.getPoints() > player2.getPoints():
-                renderedText = textFont.render('L\'équipe 1 a gagné, rejouer?', 1, (255,255,255))
+                renderedText = textFont.render('Team 1 wins, do you want to play again?', 1, (255,255,255))
             elif player2.getPoints() > player1.getPoints():
-                renderedText = textFont.render('L\'équipe 2 a gagné, rejouer?', 1, (255,255,255))
+                renderedText = textFont.render('Team 2 wins, do you want to play again?', 1, (255,255,255))
             elif player1.getPoints() == player2.getPoints():
-                renderedText = textFont.render('match nul!!! Rejouer?', 1, (255,255,255))
+                renderedText = textFont.render('The teams have tied!!! do you want to play again?', 1, (255,255,255))
         else:
-            renderedText = textFont.render('Fin du tour: ' + str(rounds+1), 1, (255,255,255))
+            renderedText = textFont.render('End of the round: ' + str(rounds+1), 1, (255,255,255))
         surface.blit(renderedText, (Xtext, 75))
         if mousePressed == True :
             state = 1
@@ -253,10 +253,11 @@ while True:
             if rounds == MAX_ROUNDS:
                 #quitGame()
                 state = 0
-                questionFile = open('assets/questions/prueba.csv')
+                questionFile = open('assets/questions/questions.csv')
                 questionReader = csv.reader(questionFile, delimiter=';')
                 questionList = list(questionReader)
-                print(questionList)
+                player1.resetPoints()
+                player2.resetPoints()
 
     now = GAME_TIME.get_ticks()
     if now-last>250 :

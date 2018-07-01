@@ -31,7 +31,9 @@ class basketPlayer:
 			self.playerStart = pygame.image.load("assets/images/player2start.png")
 		self.SPEED = 2
 
-	
+	def resetPoints(self):
+		self.points = 0
+
 	def getPos(self): # Para que te devuelva un tupple con las posiciones del jugador
 		return (self.x, self.y)	
 
