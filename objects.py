@@ -29,7 +29,7 @@ class basketPlayer:
 			self.playerMove0 = pygame.image.load("assets/images/player2move0.png")
 			self.playerMove1 = pygame.image.load("assets/images/player2move1.png")
 			self.playerStart = pygame.image.load("assets/images/player2start.png")
-		self.SPEED = 5
+		self.SPEED = 2
 
 	
 	def getPos(self): # Para que te devuelva un tupple con las posiciones del jugador
@@ -41,20 +41,20 @@ class basketPlayer:
 	def getPoints(self):
 		return self.points
 	
-	def returnToInitialPos(self): # Esta función, la cual se va ejecutando siempre que esté en el state apropiado, hace que el jugador vuelva lentamente a la posicion de inicio
+	def returnToInitialPos(self, multiplier): # Esta función, la cual se va ejecutando siempre que esté en el state apropiado, hace que el jugador vuelva lentamente a la posicion de inicio
             if self.x > self.initialPos:
-                self.x -= self.SPEED
+                self.x -= self.SPEED * multiplier
             if self.x < self.initialPos:
-                self.x += self.SPEED
+                self.x += self.SPEED * multiplier
     
 	def onePointMore(self):
 		self.points += 1
 
-	def move(self,xmouse): # Para mover al jugador
+	def move(self,xmouse, multiplier): # Para mover al jugador
 		if self.x + (self.WIDTH/2) > xmouse:
-			self.x -= self.SPEED
+			self.x -= self.SPEED * multiplier
 		else:
-			self.x += self.SPEED
+			self.x += self.SPEED * multiplier
 
 	def draw(self, surface, textFont, pos): # Para dibujar al jugador
 		#pygame.draw.rect(surface,self.color,(self.x, self.y, self.WIDTH, self.HEIGHT))
@@ -83,8 +83,8 @@ class ball:
 		self.HEIGHT = 50
 		self.color = (0,255,255)
 		self.flying = False
-		self.gravity = 1
-		self.INITIALIMPULSE = 25
+		self.gravity = 0.5
+		self.INITIALIMPULSE = 15
 		self.impulse = self.INITIALIMPULSE
 		self.ANGLE_SPEED=10
 		self.angle=0
@@ -96,14 +96,14 @@ class ball:
 		self.imageToDraw = self.ballImage
 
 
-	def move(self, playerPos, playerWIDTH, pygame): # Para mover la pelota
+	def move(self, playerPos, playerWIDTH, pygame, multiplier): # Para mover la pelota
 		if self.flying == False:
 			self.x = int(playerPos[0]+(playerWIDTH)/2)
 			self.y = playerPos[1] + 50
 		else:
 			#self.ballImage = pygame.transform.rotate(self.ballImage, 90)
-			self.y -= self.impulse
-			self.impulse -= self.gravity
+			self.y -= self.impulse * multiplier
+			self.impulse -= self.gravity * multiplier
 
 	def draw(self, surface, pygame): # Para dibujar la pelota
 		if self.flying == False:

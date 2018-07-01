@@ -71,6 +71,8 @@ MAX_ROUNDS = 9
 
 Xtext = 120
 
+FPS = 60
+
 # LOAD IMAGES
 questionScreen = pygame.image.load("assets/images/questionsScreen.png")
 baskets = pygame.image.load("assets/images/baskets.png")
@@ -133,7 +135,7 @@ ball2 = objects.ball(2, pygame)
 mousePosition = pygame.mouse.get_pos()
 
 def questionPlayer(player):
-	global mousePressed, state, answerPlayer, mousePosition, questionList, toAsk, answerCorrect
+	global mousePressed, state, answerPlayer, mousePosition, questionList, toAsk, answerCorrect, multiplier
 	if player==1:
 		playerA = player1
 		ballA = ball1
@@ -151,9 +153,9 @@ def questionPlayer(player):
 	surface.blit(renderedText, (Xtext, 125))
 	renderedText = textFont.render('C: ' + questionList[toAsk][order[2]], 1, (255,255,255))
 	surface.blit(renderedText, (Xtext, 150))
-	playerB.returnToInitialPos()
-	playerA.move(mousePosition[0])
-	ballA.move(playerA.getPos(), playerA.getWidth(), pygame)
+	playerB.returnToInitialPos(multiplier)
+	playerA.move(mousePosition[0], multiplier)
+	ballA.move(playerA.getPos(), playerA.getWidth(), pygame, multiplier)
 	ballA.draw(surface, pygame)
 	if mousePressed == True:
 		ballA.throw()
@@ -194,6 +196,9 @@ def answerAnimation(player):
 	    mousePressed = False
 	    timeChange = GAME_TIME.get_ticks()
 # Source in
+
+lastTime = GAME_TIME.get_ticks()
+deltaTime = 1/FPS
 
 while True:
     mousePosition = pygame.mouse.get_pos()
@@ -263,6 +268,10 @@ while True:
     player1.draw(surface, textFontPoints, pos)
     player2.draw(surface, textFontPoints, pos)
     
-    clock.tick(60)
+    clock.tick(FPS)
+    deltaTime = GAME_TIME.get_ticks() - lastTime
+    lastTime = GAME_TIME.get_ticks()
+    multiplier = deltaTime * FPS * 1E-3
+    print(multiplier)
     pygame.display.update()
     
