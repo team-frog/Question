@@ -273,6 +273,6 @@ while True:
     deltaTime = GAME_TIME.get_ticks() - lastTime
     lastTime = GAME_TIME.get_ticks()
     multiplier = deltaTime * FPS * 1E-3
-    print(multiplier)
+    print(1000/deltaTime)
     pygame.display.update()
     
